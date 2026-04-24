@@ -6,7 +6,7 @@
 Download the zip file and extract it to your mod folder, e.g. for Steam on Windows: `C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods`
 
 ## Gameplay Changes I Remembered to Document
-- Uses the simulated horde behavior, which is complicated and cool
+- Uses the fabulous [WalkerSim 2](https://github.com/ZehMatt/7dtd-WalkerSim2) horde simulator for ambient (non-POI) zombie spawns
 - Prevents most ambient biome spawning. Burnt forest and wasteland zombies will still spawn, but less often.
 - Drastically reduces how often zombie animals spawn
 - Disables zombie jumping and climbing (including spiders)
