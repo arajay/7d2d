@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <property name="WhitelistJumping" value="false" />
+  <!--When true, only zombies in AllowList can jump. If false, no zombies can.-->
+  <property name="AllowPush" value="true" />
+  <!--AllowPush DISCLAIMER:-->
+  <!-- - TRUE means zombies can push each other out of the way.-->
+  <!-- - GREAT for tunneling zombies, prevents one digging zombie from clogging the tunnel.-->
+  <!-- - DOWNSIDE: in 1-block-wide corridors, if a zombie stops, all others get stuck behind them.-->
+  <!--   This can create a 'pool' of stuck zombies until the blocker is killed.-->
+  <!--Default is FALSE (push disabled).-->
+  <property name="DebugLogging" value="false" />
+  <!--Enable debug logs in console. Default false.-->
+  <property name="AllowList" value="zombieSpider" />
+  <!--Comma-separated list of zombies allowed to jump. Example: zombieSpider,zombieSoldier-->
+</config>

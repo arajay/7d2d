@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ModInfo>
+  <Name value="MovableBarricades" />
+  <DisplayName value="Movable Furniture Barricade System" />
+  <Description value="Tag and relocate furniture to barricade doors/windows during breaches. Perfect companion for Romero Survival Protocol." />
+  <Author value="Amoskioski" />
+  <Version value="0.1" />
+  <Website value="" />
+  <Depends value="0_TFP_Harmony" />
+</ModInfo>

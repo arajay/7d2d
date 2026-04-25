@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModSettings>
+  <Global>
+    <Tab name="Main" displayKey="bbhaUIMainTab" tooltipKey="bbhaTipMainTab">
+      <Category name="Presets" displayKey="bbhaUIPresetsCat" tooltipKey="bbhaTipPresetsCat">
+        <Selector name="LevelOfRealism" displayKey="bbhaUILevelOfRealism" tooltipKey="bbhaTipLevelOfRealism" defaultValue="Hollywood">
+          <Property type="arrayValues" allowedValues="Newtonian,Hollywood,Anime,Custom" />
+        </Selector>
+      </Category>
+      <Category name="Features" displayKey="bbhaUIFeaturesCat" tooltipKey="bbhaTipFeaturesCat">
+        <Switch name="ReturnDamage" displayKey="bbhaUIReturnDamage" tooltipKey="bbhaTipReturnDamage" defaultValue="Enabled" leftValue="Disabled" rightValue="Enabled" />
+        <Switch name="BlockDamageFactor" displayKey="bbhaUIBlockDamageFactor" tooltipKey="bbhaTipBlockDamageFactor" defaultValue="Enabled" leftValue="Disabled" rightValue="Enabled" />
+        <Switch name="Logging" displayKey="bbhaUILogging" tooltipKey="bbhaTipLogging" defaultValue="Disabled" leftValue="Disabled" rightValue="Enabled" />
+      </Category>
+    </Tab>
+    <Tab name="Advanced" displayKey="bbhaUIAdvancedTab" tooltipKey="bbhaTipAdvancedTab">
+      <Category name="Limits" displayKey="bbhaUILimitsCat" tooltipKey="bbhaTipLimitsCat">
+        <Slider name="MinDamageDealt" displayKey="bbhaUIMinDamageDealt" tooltipKey="bbhaTipMinDamageDealt" defaultValue="0">
+          <Property increment="1" minValue="0" maxValue="100" type="incrementalValuesInt" />
+        </Slider>
+        <Slider name="MaxReturnedDamage" displayKey="bbhaUIMaxReturnedDamage" tooltipKey="bbhaTipMaxReturnedDamage" defaultValue="10">
+          <Property increment="1" minValue="1" maxValue="100" type="incrementalValuesInt" />
+        </Slider>
+      </Category>
+      <Category name="HardnessThreshold" displayKey="bbhaUIHardnessThresholdCat" tooltipKey="bbhaTipHardnessThresholdCat">
+        <Slider name="HardnessThresholdCurveStart" displayKey="bbhaUIHardnessThresholdCurveStart" tooltipKey="bbhaTipHardnessThresholdCurveStart" defaultValue="250">
+          <Property increment="10" minValue="0" maxValue="50000" type="incrementalValuesInt" />
+        </Slider>
+        <Slider name="HardnessThresholdCurveMid" displayKey="bbhaUIHardnessThresholdCurveMid" tooltipKey="bbhaTipHardnessThresholdCurveMid" defaultValue="500">
+          <Property increment="10" minValue="0" maxValue="50000" type="incrementalValuesInt" />
+        </Slider>
+        <Slider name="HardnessThresholdCurveEnd" displayKey="bbhaUIHardnessThresholdCurveEnd" tooltipKey="bbhaTipHardnessThresholdCurveEnd" defaultValue="5001">
+          <Property increment="10" minValue="0" maxValue="50000" type="incrementalValuesInt" />
+        </Slider>
+      </Category>
+      <Category name="BlockDamageFactor" displayKey="bbhaUIBlockDamageFactorCat" tooltipKey="bbhaTipBlockDamageFactorCat">
+        <Slider name="BlockDamageCurveStartMult" displayKey="bbhaUIBlockDamageCurveStartMult" tooltipKey="bbhaTipBlockDamageCurveStartMult" defaultValue="2">
+          <Property increment="1" minValue="0" maxValue="100" type="incrementalValuesInt" />
+        </Slider>
+        <Slider name="BlockDamageCurveMidMult" displayKey="bbhaUIBlockDamageCurveMidMult" tooltipKey="bbhaTipBlockDamageCurveMidMult" defaultValue="50">
+          <Property increment="1" minValue="0" maxValue="100" type="incrementalValuesInt" />
+        </Slider>
+        <Slider name="BlockDamageCurveEndMult" displayKey="bbhaUIBlockDamageCurveEndMult" tooltipKey="bbhaTipBlockDamageCurveEndMult" defaultValue="100">
+          <Property increment="1" minValue="0" maxValue="100" type="incrementalValuesInt" />
+        </Slider>
+      </Category>
+    </Tab>
+  </Global>
+  <World />
+</ModSettings>

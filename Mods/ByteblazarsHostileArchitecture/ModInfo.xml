@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Author value="Byteblazar" />
+	<Banner value="Textures/banner.png" />
+	<Description value="Makes breaking blocks painfully realistic (for enemies)." />
+	<DisplayName value="Hostile Architecture" />
+	<Icon value="Textures/icon.png" />
+	<Name value="Hostile_Architecture" />
+	<Version value="1.1.0" />
+	<Website value="https://www.nexusmods.com/profile/Byteblazar/mods" />
+</xml>

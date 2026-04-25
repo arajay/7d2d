@@ -1,0 +1,6 @@
+<configs>
+<remove xpath="/progression/perks/perk[@name='perkHiddenStrike']/effect_group/requirement[contains(@cvar,'_crouching')]"/>
+<remove xpath="/progression/perks/book[@name='perkNightStalkerStealthDamage']/effect_group/requirement[contains(@cvar,'_crouching')]"/>
+<remove xpath="/progression/perks/book[@name='perkNightStalkerComplete']/effect_group/requirement[contains(@cvar,'_crouching')]"/>
+<remove xpath="/progression/perks/book[@name='perkRangersKnockdown']/effect_group/requirement[contains(@cvar,'_crouching')]"/>
+</configs>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+  <append xpath="/buffs">
+    <buff name="buffMovableBarricadeSlow" 
+          description="Slowed while moving furniture" 
+          icon="ui_game_symbol_exclamation" 
+          duration="999"
+          hidden="false">
+      <passive_effect name="WalkSpeed" operation="perc_sub" value="0.4" />
+      <passive_effect name="RunSpeed" operation="perc_sub" value="0.4" />
+      <stack_type value="replace" />
+    </buff>
+  </append>
+</configs>

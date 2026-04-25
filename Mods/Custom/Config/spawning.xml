@@ -1,0 +1,64 @@
+<DurielSpawnConfigs>
+	<!-- block all ambient zombie spawning -->
+	<set xpath="/spawning/biome/spawn[contains(@entitygroup,'Zombies')]/@maxcount">0</set>
+	<!-- uncomment to enable burnt and wasteland ambient spawning
+	<set xpath="/spawning/biome/spawn[@entitygroup='ZombiesAll']/@maxcount">
+		0
+	</set>
+	<set xpath="/spawning/biome/spawn[@entitygroup='ZombiesNight']/@maxcount">
+		0
+	</set>
+	<set xpath="/spawning/biome/spawn[@entitygroup='ZombiesWasteland']/@maxcount">
+		0
+	</set>
+	<set xpath="/spawning/biome/spawn[@entitygroup='ZombiesWastelandNight']/@maxcount">
+		0
+	</set>
+	<set xpath="/spawning/biome/spawn[@entitygroup='ZombiesBurntForest']/@respawndelay">
+		7
+	</set>
+	<set xpath="/spawning/biome/spawn[@entitygroup='ZombiesDowntown']/@respawndelay">
+		5
+	</set>
+	<set xpath="/spawning/biome/spawn[@entitygroup='ZombiesForestDowntown']/@respawndelay">
+		7
+	</set>
+	<set xpath="/spawning/biome/spawn[@entitygroup='ZombiesForestDowntownNight']/@respawndelay">
+		5
+	</set>
+	<set xpath="/spawning/biome/spawn[@entitygroup='ZombiesWastelandDowntown']/@respawndelay">
+		3
+	</set>
+	-->
+	<!-- nerf animals -->
+	<set xpath="/spawning/biome/spawn[contains(@entitygroup,'EnemyAnimals')]/@respawndelay">7</set>
+	<!-- uncomment for more granular control
+	<set xpath="/spawning/biome/spawn[@entitygroup='EnemyAnimalsForest']/@respawndelay">
+		9
+	</set>
+	<set xpath="/spawning/biome/spawn[@entitygroup='EnemyAnimalsBurntForestAny']/@respawndelay">
+		7
+	</set>
+	<set xpath="/spawning/biome/spawn[@entitygroup='EnemyAnimalsBurntForestNight']/@respawndelay">
+		7
+	</set>
+	<set xpath="/spawning/biome/spawn[@entitygroup='EnemyAnimalsDesert']/@respawndelay">
+		7
+	</set>
+	<set xpath="/spawning/biome/spawn[@entitygroup='EnemyAnimalsDesertNight']/@respawndelay">
+		7
+	</set>
+	<set xpath="/spawning/biome/spawn[@entitygroup='EnemyAnimalsSnow']/@respawndelay">
+		5
+	</set>
+	<set xpath="/spawning/biome/spawn[@entitygroup='EnemyAnimalsSnowNight']/@respawndelay">
+		5
+	</set>
+	<set xpath="/spawning/biome/spawn[@entitygroup='EnemyAnimalsWasteland']/@respawndelay">
+		3
+	</set>
+	<set xpath="/spawning/biome/spawn[@entitygroup='EnemyAnimalsWastelandNight']/@respawndelay">
+		3
+	</set>
+	 -->
+</DurielSpawnConfigs>

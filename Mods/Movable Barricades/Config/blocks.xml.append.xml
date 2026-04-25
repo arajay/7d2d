@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<configs>
+  <!-- v1 Whitelist - Simple furniture you can tag/move -->
+  <append xpath="/blocks/block[contains(@name,'chair') or contains(@name,'table') or contains(@name,'dresser') or contains(@name,'bed') or contains(@name,'lamp')]">
+    <property name="MovableBarricade" value="true" />
+  </append>
+</configs>

@@ -1,0 +1,51 @@
+<configs>
+
+<append xpath="/entity_classes">
+
+<entity_class name="vehicleFlatBoat">
+	<property name="Class" value="EntityVJeep"/>
+	<property name="Tags" value="vehicle,Flatboat,fish,usesGas"/>
+	<property name="Parent" value="Cars"/>
+	<property name="Prefab" value="#@modfolder:Resources/BoatsRagsyv8.unity3d?vehicleBoat2"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="SurfaceCategory" value="metal"/>
+	<property name="IgnoreTrigger" value="true"/>
+	<property name="LootListAlive" value="vehicleBicycle"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="Explosion.ParticleIndex" value="6"/>
+	<property name="Explosion.RadiusBlocks" value="3"/>
+	<property name="Explosion.RadiusEntities" value="3"/>
+	<property name="Explosion.BlockDamage" value="5"/>
+	<property name="Explosion.EntityDamage" value="5"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="RotateToGround" value="false"/>
+	<property name="Faction" value="none"/>
+	<property name="MapIcon" value="MotorBoatUI"/>
+	<property name="NavObject" value="MotorBoatUI"/>
+	</entity_class>
+	
+	<entity_class name="vehicleDinghy">
+	<property name="Class" value="EntityVJeep"/>
+	<property name="Tags" value="vehicle,Dingy,fish,usesGas"/>
+	<property name="Parent" value="Cars"/>
+	<property name="Prefab" value="#@modfolder:Resources/BoatsRagsyv8.unity3d?vehicleBoat3"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="SurfaceCategory" value="metal"/>
+	<property name="IgnoreTrigger" value="true"/>
+	<property name="LootListAlive" value="vehicleBicycle"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="Explosion.ParticleIndex" value="6"/>
+	<property name="Explosion.RadiusBlocks" value="3"/>
+	<property name="Explosion.RadiusEntities" value="3"/>
+	<property name="Explosion.BlockDamage" value="5"/>
+	<property name="Explosion.EntityDamage" value="5"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="RotateToGround" value="false"/>
+	<property name="Faction" value="none"/>
+	<property name="MapIcon" value="MotorBoatUI"/>
+	<property name="NavObject" value="MotorBoatUI"/>
+	</entity_class>
+</append>
+</configs>
+
+

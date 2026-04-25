@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WalkerSim xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://zeh.matt/WalkerSim WalkerSimSchema.xsd" Version="2"
+  xmlns="http://zeh.matt/WalkerSim">
+  <Logging>
+    <General>true</General>
+    <Spawns>false</Spawns>
+    <Despawns>false</Despawns>
+    <EntityClassSelection>false</EntityClassSelection>
+    <Events>false</Events>
+  </Logging>
+  <RandomSeed>123456789</RandomSeed>
+  <PopulationDensity>4000</PopulationDensity>
+  <SpawnActivationRadius>96</SpawnActivationRadius>
+  <StartAgentsGrouped>false</StartAgentsGrouped>
+  <EnhancedSoundAwareness>true</EnhancedSoundAwareness>
+  <SoundDistanceScale>1</SoundDistanceScale>
+  <GroupSize>512</GroupSize>
+  <AgentStartPosition>RandomPOI</AgentStartPosition>
+  <AgentRespawnPosition>Mixed</AgentRespawnPosition>
+  <PauseDuringBloodmoon>true</PauseDuringBloodmoon>
+  <SpawnProtectionTime>600</SpawnProtectionTime>
+  <InfiniteZombieLifetime>true</InfiniteZombieLifetime>
+  <MaxSpawnedZombies>75%</MaxSpawnedZombies>
+  <PopulationStartPercent>1</PopulationStartPercent>
+  <FullPopulationAtDay>7</FullPopulationAtDay>
+  <Systems>
+    <System Name="Global" Weight="1" SpeedScale="1" PostSpawnBehavior="Wander" PostSpawnWanderSpeed="NoOverride" Color="#ff00ff">
+      <Processor Type="WorldEvents" Distance="64" Power="1" />
+      <Processor Type="FlockAnyGroup" Distance="32" Power="0.9" />
+      <Processor Type="AlignAnyGroup" Distance="16" Power="0.8"/>
+      <Processor Type="AvoidSameGroup" Distance="8" Power="0.7" />
+      <Processor Type="StickToRoads" Power="0.6" />
+      <Processor Type="PreferCities" Power="0.5" />
+      <Processor Type="Wind" Power="0.4" />
+    </System>
+  </Systems>
+</WalkerSim>

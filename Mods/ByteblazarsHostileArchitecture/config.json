@@ -1,0 +1,14 @@
+{
+	"loggingEnabled": false,
+	"levelOfRealism": "Custom",
+	"ReturnDamage": true,
+	"BlockDamageFactor": true,
+	"MinDamageDealt": 0.0,
+	"MaxReturnedDamage": 0.1,
+	"HardnessThresholdCurveStart": 250,
+	"HardnessThresholdCurveMid": 500,
+	"HardnessThresholdCurveEnd": 5001,
+	"BlockDamageCurveStartMult": 2,
+	"BlockDamageCurveMidMult": 50,
+	"BlockDamageCurveEndMult": 100
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="syBlockProofAmmo"/> 
+    <DisplayName value="BlockProof Ammo"/> 
+    <Version value="2.1.0"/>
+    <Description value="BlockProof Ammo removes block damage from all ammunition."/> 
+    <Author value="SyTry"/> 
+    <Website value=""/> 
+</xml>
