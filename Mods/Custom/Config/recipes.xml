@@ -1,0 +1,46 @@
+<recipes>
+    <!-- remove all glass jar crafting recipes -->
+    <!-- <remove xpath="/recipes/recipe[starts-with(@name, 'drinkJar')]" /> -->
+
+    <!-- remove all ammunition crafting recipes -->
+    <!-- <remove xpath="/recipes/recipe[contains(@name, 'Bullet')]" />
+    <remove xpath="/recipes/recipe[contains(@name, 'Shell')]" /> -->
+
+    <!-- change wheel crafting to use scrap tires -->
+    <remove xpath="/recipes/recipe[@name='vehicleWheels']" />
+
+
+    <recipe name="vehicleWheels" count="1" tags="perkGreaseMonkey,learnable,packMuleCrafting">
+        <ingredient name="resourceForgedIron" count="4"/>
+        <ingredient name="resourceScrapPolymers" count="16"/>
+        <ingredient name="decoCarTireFlat" count="1"/>
+        <effect_group>
+            <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0" value=".5" tags="resourceForgedIron,resourceScrapPolymers"/>
+        </effect_group>
+    </recipe>
+    <recipe name="vehicleWheels_from_decoCarTireSmallFlat" count="1" tags="perkGreaseMonkey,learnable,packMuleCrafting">
+        <ingredient name="resourceForgedIron" count="4"/>
+        <ingredient name="resourceScrapPolymers" count="16"/>
+        <ingredient name="decoCarTireSmallFlat" count="1"/>
+        <effect_group>
+            <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0" value=".5" tags="resourceForgedIron,resourceScrapPolymers"/>
+        </effect_group>
+    </recipe>
+    <recipe name="vehicleWheels_from_decoCarTireFlat02" count="1" tags="perkGreaseMonkey,learnable,packMuleCrafting">
+        <ingredient name="resourceForgedIron" count="4" />
+        <ingredient name="resourceScrapPolymers" count="16"/>
+        <ingredient name="decoCarTireFlat02" count="1"/>
+        <effect_group>
+            <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0" value=".5" tags="resourceForgedIron,resourceScrapPolymers"/>
+        </effect_group>
+    </recipe>
+    <recipe name="vehicleWheels_from_decoCarTireSmallFlat02" count="1" tags="perkGreaseMonkey,learnable,packMuleCrafting">
+        <ingredient name="resourceForgedIron" count="4" />
+        <ingredient name="resourceScrapPolymers" count="16"/>
+        <ingredient name="decoCarTireSmallFlat02" count="1"/>
+        <effect_group>
+            <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0" value=".5" tags="resourceForgedIron,resourceScrapPolymers"/>
+        </effect_group>
+    </recipe>
+
+</recipes>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <!-- Enhanced Night Vision for Darker Nights -->
+  <append xpath="/item_modifiers/item_modifier[@name='modArmorNightVision']">
+    <!-- Standard night vision effect -->
+    <set xpath="effect_group/triggered_effect[@action='ModifyScreenEffect' and @trigger='onSelfItemActivate']/@effect_name">NightVision</set>
+    <set xpath="effect_group/triggered_effect[@action='ModifyScreenEffect' and @trigger='onSelfItemActivate']/@intensity">1.0</set>
+    <set xpath="effect_group/triggered_effect[@action='ModifyScreenEffect' and @trigger='onSelfItemActivate']/@fade">1.2</set>
+
+    <!-- Additional lighting effect -->
+    <triggered_effect trigger="onSelfItemActivate" action="ModifyScreenEffect" effect_name="Bright" intensity="0.9" fade="1.2"/>
+
+    <!-- Disable NVG - turn off both effects -->
+    <set xpath="effect_group/triggered_effect[@action='ModifyScreenEffect' and @trigger='onSelfItemDeactivate']/@effect_name">NightVision</set>
+    <set xpath="effect_group/triggered_effect[@action='ModifyScreenEffect' and @trigger='onSelfItemDeactivate']/@intensity">0</set>
+    <set xpath="effect_group/triggered_effect[@action='ModifyScreenEffect' and @trigger='onSelfItemDeactivate']/@fade">1.2</set>
+
+    <triggered_effect trigger="onSelfItemDeactivate" action="ModifyScreenEffect" effect_name="Bright" intensity="0" fade="1.2"/>
+
+    <!-- Remove goggles - disable both effects -->
+    <set xpath="effect_group/triggered_effect[@action='ModifyScreenEffect' and @trigger='onSelfEquipStop']/@effect_name">NightVision</set>
+    <set xpath="effect_group/triggered_effect[@action='ModifyScreenEffect' and @trigger='onSelfEquipStop']/@intensity">0</set>
+    <set xpath="effect_group/triggered_effect[@action='ModifyScreenEffect' and @trigger='onSelfEquipStop']/@fade">1.2</set>
+
+    <triggered_effect trigger="onSelfEquipStop" action="ModifyScreenEffect" effect_name="Bright" intensity="0" fade="1.2"/>
+  </append>
+</config>

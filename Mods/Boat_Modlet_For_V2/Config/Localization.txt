@@ -1,0 +1,7 @@
+Key,Source,Context,Changes,English,French,Latam,German,Klingon,Spanish,Polish
+vehicleFlatBoat,vehicles,vehicle,new,FlatBottom Boat,,Barco de fondo plano,,,Barco de fondo plano,
+vehicleFlatBoatPlaceable,vehicles,item,EnChanged,Flat Bottom Boat Placeable,,Barco de fondo plano colocable,,,Barco de fondo plano colocable,
+vehicleFlatBoatPlaceableDesc,vehicles,item,EnChanged, Swim if you like ? ,,¿Nada si quieres?,,,¿Nada si quieres?,
+vehicleDinghy,vehicles,vehicle,new,Dinghy,,Bote inflable,,,Bote inflable,
+vehicleDinghyPlaceable,vehicles,item,EnChanged,A Dinghy Placeable,,Un bote inflable colocable,,,Un bote inflable colocable,
+vehicleDinghyPlaceableDesc,vehicles,item,EnChanged, Fast boat but swim if you like ? ,,Bote rápido pero ¿nada si quieres?,,,Bote rápido pero ¿nada si quieres?,

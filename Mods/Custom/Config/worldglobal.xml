@@ -1,0 +1,11 @@
+<config>
+  <!-- darker nights -->
+  <set xpath="/worldglobal/environment/property[@name='ambientEquatorScale']/@value">.7, .225</set>
+  <set xpath="/worldglobal/environment/property[@name='ambientGroundScale']/@value">.3, .025</set>
+  <set xpath="/worldglobal/environment/property[@name='ambientSkyScale']/@value">1, .35</set>
+  <set xpath="/worldglobal/environment/property[@name='ambientSkyDesat']/@value">.7, .35</set>
+  <set xpath="/worldglobal/environment/property[@name='ambientMoon']/@value">.8, .2</set>
+  <set xpath="/worldglobal/environment/property[@name='ambientInsideEquatorScale']/@value">.55, .75</set>
+  <set xpath="/worldglobal/environment/property[@name='ambientInsideGroundScale']/@value">.2, .1</set>
+  <set xpath="/worldglobal/environment/property[@name='ambientInsideSkyScale']/@value">.8, .2</set>
+</config>

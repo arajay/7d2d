@@ -1,0 +1,7 @@
+<config>
+	<!-- All : 9mm, 44mm, 7.62mm, Shotgun, Junk Turret, Rocket, Arrow, Crossbow -->
+	<set xpath="/items/item[starts-with(@name, 'ammo')]/effect_group/passive_effect[@name='BlockDamage']/@value">5</set>
+
+	<!-- Shotgun : Breaching Slug -->
+	<set xpath="/items/item[@name='ammoShotgunBreachingSlug']/effect_group/passive_effect[@name='BlockDamage' and @tags='door,wood,lockedSafe']/@value">1000</set>
+</config>

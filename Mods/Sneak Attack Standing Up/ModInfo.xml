@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="SneakAttackStandingUp" />
+	<DisplayName value="Sneak Attack Standing Up" />
+	<Version value="1.0" />
+	<Description value="Sneak Attack also apply while standing up" />
+	<Author value="Gyropilot" />
+</xml>

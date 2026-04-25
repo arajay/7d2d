@@ -1,0 +1,107 @@
+<configs>
+	<!-- do not destroy most containers after searching -->
+	<set xpath="/lootcontainers/lootcontainer/@destroy_on_close">false</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='playerBackpack']/@destroy_on_close">empty</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='junk']/@destroy_on_close">empty</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='birdNest']/@destroy_on_close">empty</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='shoes']/@destroy_on_close">empty</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='singleBooks']/@destroy_on_close">empty</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='questRewardSkillMagazines']/@destroy_on_close">empty</set>
+	<!-- <set xpath="/lootcontainers/lootcontainer[contains(@name,'Trash')]/@destroy_on_close">empty</set> -->
+	<set xpath="/lootcontainers/lootcontainer[contains(@name,'trash')]/@destroy_on_close">empty</set>
+	<set xpath="/lootcontainers/lootcontainer[contains(@name,'ammo')]/@destroy_on_close">empty</set>
+	<set xpath="/lootcontainers/lootcontainer[contains(@name,'Pile')]/@destroy_on_close">empty</set>
+	<set xpath="/lootcontainers/lootcontainer[contains(@name,'clothes')]/@destroy_on_close">empty</set>
+
+	<!-- no seeds and feathers in weird places -->
+	<remove xpath="/lootcontainers/lootgroup[@name='groupJunkNoBMats01']/item[@group='seeds']" />
+	<remove xpath="/lootcontainers/lootgroup[@name='groupJunkNoBMats02']/item[@name='resourceFeather']" />
+	<remove xpath="/lootcontainers/lootgroup[@name='groupDumpster01']/item[@group='seeds']" />
+
+	<!-- bird nest -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']/item[@name='resourceFeather']/@count">1,16</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']/item[@name='foodEgg']/@loot_prob_template">veryLow</set>
+	<append xpath="/lootcontainers/lootgroup[@name='groupBirdNest01']">
+		<item name="foodEgg" count="2,6" loot_prob_template="veryLow" />
+	</append>
+
+	<!-- grill -->
+	<remove xpath="/lootcontainers/lootgroup[@name='groupGrills01']/item[@name='foodGrilledMeat']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupGrills01']/item[@name='foodCharredMeat']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupGrills01']/item[@name='foodRottingFlesh']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupGrills']/item[@name='meleeWpnBladeT1HuntingKnife']"/>
+	<set xpath="/lootcontainers/lootgroup[@name='groupGrills01']/item[@name='resourceBone']/@loot_prob_template">low</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupGrills01']/item[@name='resourceCoal']/@loot_prob_template">high</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupGrills']/item[@name='toolCookingGrill']/@loot_prob_template">med</set>
+
+	<!-- oven -->
+	<remove xpath="/lootcontainers/lootgroup[@name='groupOven']/item[@group='groupOven02']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupOven01']/item[@name='foodCharredMeat']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupOven01']/item[@name='foodRottingFlesh']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupOven01']/item[@name='resourceCoal']"/>
+	<set xpath="/lootcontainers/lootgroup[@name='groupOven01']/item[@name='toolCookingPot']/@loot_prob_template">low</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupOven01']/item[@name='toolCookingGrill']/@loot_prob_template">med</set>
+
+	<!-- dishwasher -->
+	<remove xpath="/lootcontainers/lootgroup[@name='groupDishwasherJunk']/item[@name='foodRottingFlesh']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupDishwasherJunk']/item[@name='resourceAnimalFat']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupDishwasherJunk']/item[@name='resourceBone']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupDishwasherJunk']/item[@name='toolCookingGrill']"/>
+	<set xpath="/lootcontainers/lootgroup[@name='groupDishwasherJunk']/item[@name='toolCookingPot']/@loot_prob_template">low</set>
+	<append xpath="/lootcontainers/lootgroup[@name='groupDishwasherJunk']">
+		<item name="drinkJarEmpty" count="1,6" loot_prob_template="low"/>
+		<item name="toolBeaker" loot_prob_template="veryLow"/>
+		<item name="resourceMetalPipe" loot_prob_template="veryLow" />
+		<item name="resourceMechanicalParts" loot_prob_template="veryLow" />
+		<item name="resourceElectricParts" loot_prob_template="veryLow" />
+		<item name="resourceSpring" loot_prob_template="veryLow" />
+	</append>
+
+	<!-- cupboard -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupCookingTools']">
+		<item name="drinkJarEmpty" />
+		<item name="toolBeaker" />
+	</append>
+
+	<!-- water cooler -->
+	<remove xpath="/lootcontainers/lootgroup[@name='groupWaterCooler']/item[@name='resourceScrapPolymers']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupWaterCooler']/item[@name='drinkJarBoiledWater']"/>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWaterCooler']/item[@name='drinkJarPureMineralWater']/@loot_prob_template">medLow</set>
+
+	<!-- cofee maker -->
+	<remove xpath="/lootcontainers/lootgroup[@name='groupCoffeeMaker01']/item[@name='drinkJarRiverWater']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupCoffeeMaker01']/item[@name='drinkJarBoiledWater']"/>
+
+	<!-- soda fountain -->
+	<remove xpath="/lootcontainers/lootgroup[@name='groupSodaFountain01']/item[@name='drinkJarRiverWater']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupSodaFountain01']/item[@name='drinkJarBoiledWater']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupSodaFountain01']/item[@name='resourcePaper']"/>
+	<set xpath="/lootcontainers/lootgroup[@name='groupSodaFountain01']/item[@name='drinkCanMegaCrush']/@loot_prob_template">low</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupSodaFountain01']/item[@name='drinkCanMegaCrush']/@count">1,3</set>
+	<append xpath="/lootcontainers/lootgroup[@name='groupSodaFountain01']">
+		<item name="drinkJarPureMineralWater" loot_prob_template="low" count="1,3" />
+	</append>
+
+	<!-- laundry -->
+	<remove xpath="/lootcontainers/lootgroup[@name='groupLaundry']/item[@group='groupLaundry01']" />
+	<append xpath="/lootcontainers/lootgroup[@name='groupLaundry03']">
+		<item group="groupArmorParts" />
+	</append>
+	<set xpath="/lootcontainers/lootgroup[@name='groupLaundry']/item[@name='groupLaundry02']/@loot_prob_template">high</set>
+
+	<!-- dew collector -->
+	<remove xpath="/lootcontainers/lootgroup[@name='groupDewCollectorLoot01']/item[@name='workstationSkillMagazine']" />
+	<remove xpath="/lootcontainers/lootgroup[@name='groupDewCollectorLoot02']/item[@name='workstationSkillMagazine']" />
+	<remove xpath="/lootcontainers/lootgroup[@name='groupDewCollector']/item[@name='workstationSkillMagazine']" />
+
+	<!-- workbench -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupWorkbenchLoot']/item[@group='groupWorkbenchLoot02']/@loot_prob_template">medHigh</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWorkbenchLoot']/item[@group='groupWorkbenchLoot03']/@loot_prob_template">med</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWorkbenchLoot']/item[@group='groupWorkbenchLoot04']/@loot_prob_template">medLow</set>
+
+	<!-- get a couple good items from the first quest -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupIntroBuriedSupplies']">
+		<item group="groupArmorScaled" />
+		<item group="groupWeaponsAllScaledNoParts" />
+	</append>
+</configs>

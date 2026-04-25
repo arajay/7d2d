@@ -1,0 +1,37 @@
+<blocks>
+    <!-- make tires pickable -->
+    <append xpath="/blocks/block[contains(@name, 'TireSmallFlat') or contains(@name, 'CarTireFlat') or contains(@name, 'CarWheelFlat')]">
+        <property name="CanPickup" value="true"/>
+    </append>
+
+    <!-- bigger stack sizes  -->
+    <set xpath="/blocks/block[contains(@name, 'candle')]/property[@name='Stacknumber']/@value">64</set>
+    <set xpath="/blocks/block[contains(@name, 'mine')]/property[@name='Stacknumber']/@value">16</set>
+    <append xpath="/blocks/block[@name='cropsHarvestableMaster']">
+        <property name="Stacknumber" value="16"/>
+    </append>
+    <append xpath="/blocks/block[@name='cropsGrowingMaster']">
+        <property name="Stacknumber" value="16"/>
+    </append>
+    <append xpath="/blocks/block[@name='treeMaster']">
+        <property name="Stacknumber" value="16"/>
+    </append>
+    <append xpath="/blocks/block[contains(@name, 'planted')]">
+        <property name="Stacknumber" value="16"/>
+    </append>
+    <append xpath="/blocks/block[contains(@name, 'ladder')]">
+        <property name="Stacknumber" value="16"/>
+    </append>
+    <append xpath="/blocks/block[contains(@name, 'Door')]">
+        <property name="Stacknumber" value="16"/>
+    </append>
+    <append xpath="/blocks/block[contains(@name, 'Hatch')]">
+        <property name="Stacknumber" value="16"/>
+    </append>
+    <append xpath="/blocks/block[@name='frameShapes']">
+        <property name="Stacknumber" value="16"/>
+    </append>
+    <append xpath="/blocks/block[contains(@name, 'cnt')]">
+        <property name="Stacknumber" value="16"/>
+    </append>
+</blocks>	

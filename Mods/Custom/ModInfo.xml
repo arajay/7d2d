@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="Custom" />
+	<DisplayName value="RJCustomMod" />
+	<Version value="1.0" />
+	<Description value="Disables ambient biome zombie spawns and adjust animal spawns." />
+	<Author value="Arajay" />
+</xml>
