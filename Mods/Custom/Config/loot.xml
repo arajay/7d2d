@@ -83,13 +83,13 @@
 	</append>
 
 	<!-- laundry -->
-	<remove xpath="/lootcontainers/lootgroup[@name='groupLaundry']/item[@group='groupLaundry01']" />
 	<append xpath="/lootcontainers/lootgroup[@name='groupLaundry03']">
 		<item group="groupArmorParts" />
 	</append>
-	<set xpath="/lootcontainers/lootgroup[@name='groupLaundry']/item[@name='groupLaundry02']/@loot_prob_template">high</set>
-
-	<!-- dew collector -->
+	<remove xpath="/lootcontainers/lootgroup[@name='groupLaundry']/item[@group='groupLaundry01']" />
+	<set xpath="/lootcontainers/lootgroup[@name='groupLaundry']/item[@group='groupLaundry02']/@loot_prob_template">high</set>
+4
+		<!-- dew collector -->
 	<remove xpath="/lootcontainers/lootgroup[@name='groupDewCollectorLoot01']/item[@name='workstationSkillMagazine']" />
 	<remove xpath="/lootcontainers/lootgroup[@name='groupDewCollectorLoot02']/item[@name='workstationSkillMagazine']" />
 	<remove xpath="/lootcontainers/lootgroup[@name='groupDewCollector']/item[@name='workstationSkillMagazine']" />
