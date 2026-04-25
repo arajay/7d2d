@@ -5,29 +5,49 @@
 
 Download the zip file and extract it to your mod folder, e.g. for Steam on Windows: `C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods`
 
+## Usage
+
+It is recommend to use this modpack in conjunction with the attached serverconfig.xml settings. 
+
 ## Gameplay Changes I Remembered to Document
+
+Items in *italics* are *untested*
+
+### Spawning
 - Uses the fabulous [WalkerSim 2](https://github.com/ZehMatt/7dtd-WalkerSim2) horde simulator for ambient (non-POI) zombie spawns
-- Prevents most ambient biome spawning. Burnt forest and wasteland zombies will still spawn, but less often.
-- Drastically reduces how often zombie animals spawn
-- Disables zombie jumping and climbing (including spiders)
-- Drastically nerfs zombie swimming so it is more like they are walking under the water
-- Disables screamers (they spawn with zero health)
+- Fully disables vanilla biome based zombie spawning
+- Reduces enemy animal respawn rate to 7 days
+
+### Zombies
+- Removes Screamers and Spiders entirely
+- Nerfs zombie movement speeds while maintaining some variance
+- Nerfs zombie swim speed so they basically walk along the sea floor
+- Disables zombie jumping and climbing
 - Drastically increases headshot damage and dismemberment chance
-- Locked doors can be picked
-- Sneak attacks do not require crouching (only not-detected)
-- Reduced zombie melee range to be more sensible
-- Most loot containers (purses, bags, etc) are no longer are destroyed when searched
-- Various common sense changes to container loot 
-- Increased loot drop from zombies
-- Pick up tires and use for crafting wheels 
-- Bigger stack sizes for most smaller items
-- Tougher environments: darker nights, dehydrating desert, stronger radiation damage, etc
-- Axes deal slashing damage
+- Reduces zombie melee range slightly
+- Increased loot drop rate
+
+### Vehicles
+- *BOATS*
+- Reduces or removes vehicle collision damage from small environment objects
+
+### General Gameplay
+- *Locked doors can be now be picked*
+- *Sneak attacks do not require crouching, only not-detected status*
+- Increases most corpse despawn timer to 10 minutes FOR THE IMMERSION
 - Fixes stun baton bugs related to perk progression 
-- Common sense vehicle collisions
+- Night is much darker
+- Axes deal slashing damage type
 - No XP gain from selling to traders
 - Move existing items for barricades (furniture, scrap, etc)
-- Remove crafting recipes for ammo and glass jars
 - Rebalanced archery damage for viable endgame builds
-- Small simple boat(s)
-- Persistent corpses
+
+### Crafting & Loot
+- Increases stack sizes for most smaller items
+- Loot containers such as purses and bags are no longer destroyed when searched, even if empty
+- Increased feather and egg drop rates from bird nests
+- Tires can be picked up from the environment
+- *The vehicle wheel crafting recipe now requires a scrap tire in addition to the other ingredients*
+
+
+
