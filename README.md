@@ -4,6 +4,7 @@
 ## Installation
 
 Download the zip file and extract it to your mod folder, e.g. for Steam on Windows:
+
 ```C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods```
 
 ## Usage
