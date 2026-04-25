@@ -2,13 +2,6 @@
 	<!-- increase zombie loot drops -->
 	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[contains(@name, 'LootDropProb')]/@value">.07</set>
 	<!-- zombie nerfs -->
-	<!-- slow tf down -->
-	<append xpath="/entity_classes/entity_class[contains(@name, 'zombie')]">
-		<property name="WalkSpeed" operation="perc_subtract" value="0.3" />
-		<property name="RunSpeed" operation="perc_subtract" value="0.3" />
-		<property name="MoveSpeedAggro" operation="perc_subtract" value="0.2" />
-		<property name="MoveSpeedPanic" operation="perc_subtract" value="0.2" />
-	</append>
 	<!-- no climbing -->
 	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='CanClimbLadders']/@value">
 		false
@@ -18,81 +11,6 @@
 	</set>
 	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='SwimStrokeRate']/@value">
 		0.5, 1
-	</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='JumpMaxDistance']/@value">
-		0.1, 0.5
-	</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieArleneFeral']/property[@name='JumpMaxDistance']/@value">
-		0.1, 0.5
-	</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieMarleneFeral']/property[@name='JumpMaxDistance']/@value">
-		0.1, 0.5
-	</set>
-	<set xpath="/entity_classes/entity_class[@name='zombiePartyGirlFeral']/property[@name='JumpMaxDistance']/@value">
-		0.1, 0.5
-	</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieNurseFeral']/property[@name='JumpMaxDistance']/@value">
-		0.1, 0.5
-	</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieJoeFeral']/property[@name='JumpMaxDistance']/@value">
-		0.1, 0.5
-	</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieSteveFeral']/property[@name='JumpMaxDistance']/@value">
-		0.1, 0.5
-	</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieTomClarkFeral']/property[@name='JumpMaxDistance']/@value">
-		0.1, 0.5
-	</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieBusinessManFeral']/property[@name='JumpMaxDistance']/@value">
-		0.1, 0.5
-	</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieBurntFeral']/property[@name='JumpMaxDistance']/@value">
-		0.1, 0.5
-	</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieJanitorRadiated']/property[@name='JumpMaxDistance']/@value">
-		0.1, 0.5
-	</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieInmateRadiated']/property[@name='JumpMaxDistance']/@value">
-		0.1, 0.5
-	</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieBiker']/property[@name='JumpMaxDistance']/@value">
-		0.1, 0.5
-	</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieBikerFeral']/property[@name='JumpMaxDistance']/@value">
-		0.1, 0.5
-	</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieLumberjack']/property[@name='JumpMaxDistance']/@value">
-		0.1, 0.5
-	</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieLumberjackFeral']/property[@name='JumpMaxDistance']/@value">
-		0.1, 0.5
-	</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieFemaleFat']/property[@name='JumpMaxDistance']/@value">
-		0.1, 0.5
-	</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieFemaleFatFeral']/property[@name='JumpMaxDistance']/@value">
-		0.1, 0.5
-	</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieFatHawaiian']/property[@name='JumpMaxDistance']/@value">
-		0.1, 0.5
-	</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieFatHawaiianFeral']/property[@name='JumpMaxDistance']/@value">
-		0.1, 0.5
-	</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieBowler']/property[@name='JumpMaxDistance']/@value">
-		0.1, 0.5
-	</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieBowlerFeral']/property[@name='JumpMaxDistance']/@value">
-		0.1, 0.5
-	</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieFatCop']/property[@name='JumpMaxDistance']/@value">
-		0.1, 0.5
-	</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieFatCopFeral']/property[@name='JumpMaxDistance']/@value">
-		0.1, 0.5
-	</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieSkateboarderFeral']/property[@name='JumpMaxDistance']/@value">
-		0.1, 0.5
 	</set>
 	<!-- persistent corpses  -->
 	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='TimeStayAfterDeath']/@value">
