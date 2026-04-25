@@ -9,15 +9,15 @@
     <EntityClassSelection>false</EntityClassSelection>
     <Events>false</Events>
   </Logging>
-  <RandomSeed>123456789</RandomSeed>
-  <PopulationDensity>140</PopulationDensity>
+  <RandomSeed>666666666</RandomSeed>
+  <PopulationDensity>4000</PopulationDensity>
   <SpawnActivationRadius>96</SpawnActivationRadius>
   <StartAgentsGrouped>false</StartAgentsGrouped>
   <EnhancedSoundAwareness>true</EnhancedSoundAwareness>
-  <SoundDistanceScale>0.5</SoundDistanceScale>
-  <GroupSize>64</GroupSize>
-  <AgentStartPosition>RandomPOI</AgentStartPosition>
-  <AgentRespawnPosition>Mixed</AgentRespawnPosition>
+  <SoundDistanceScale>0.8</SoundDistanceScale>
+  <GroupSize>256</GroupSize>
+  <AgentStartPosition>RandomCity</AgentStartPosition>
+  <AgentRespawnPosition>RandomBorderLocation</AgentRespawnPosition>
   <PauseDuringBloodmoon>true</PauseDuringBloodmoon>
   <SpawnProtectionTime>300</SpawnProtectionTime>
   <InfiniteZombieLifetime>true</InfiniteZombieLifetime>
@@ -59,7 +59,7 @@
       <Processor Type="FlockSameGroup" Distance="10" Power="0.1" />
       <Processor Type="WorldEvents" Distance="50" Power="0.6" />
     </System>
-    <System Name="Hillbillies" Weight="1" SpeedScale="1" PostSpawnBehavior="Wander" PostSpawnWanderSpeed="Walk" Color="#FFFFFF">
+    <!-- <System Name="Hillbillies" Weight="1" SpeedScale="1" PostSpawnBehavior="Wander" PostSpawnWanderSpeed="Walk" Color="#FFFFFF">
       <Processor Type="FlockSameGroup" Distance="50" Power="0.01" />
       <Processor Type="AvoidRoads" Distance="50" Power="0.01" />
       <Processor Type="AvoidSameGroup" Distance="7" Power="0.2" />
@@ -79,6 +79,6 @@
     <System Name="Loners" Weight="1" SpeedScale="1" PostSpawnBehavior="Wander" PostSpawnWanderSpeed="Walk" Color="#FF6B00">
       <Processor Type="AvoidAnyGroup" Distance="250" Power="0.5" />
       <Processor Type="WindInverted" Distance="50" Power="0.5" />
-    </System>
+    </System> -->
   </Systems>
 </WalkerSim>

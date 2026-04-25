@@ -32,7 +32,7 @@
 	<!-- boom headshot -->
 	<append xpath="/entity_classes/entity_class[@name='playerMale']/effect_group">
 		<passive_effect name="DamageModifier" operation="perc_subtract" value="0.9" tags="chest,legs,arms" />
-		<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="head" />
+		<passive_effect name="DamageModifier" operation="perc_add" value="3" tags="head" />
 	</append>
 	<set xpath="/entity_classes/entity_class/property[@name='DismemberMultiplierHead']/@value">
 		2
