@@ -6,21 +6,22 @@
 	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='CanClimbLadders']/@value">
 		false
 	</set>
+	<!-- bad swimmer -->
 	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='SwimSpeed']/@value">
 		0.5
 	</set>
 	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='SwimStrokeRate']/@value">
 		0.5, 1
 	</set>
-	<!-- persistent corpses  -->
+	<!-- persistent 15m corpses  -->
 	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='TimeStayAfterDeath']/@value">
-		9000
+		900
 	</set>
 	<set xpath="/entity_classes/entity_class[@name='animalTemplateTimid']/property[@name='TimeStayAfterDeath']/@value">
-		9000
+		900
 	</set>
 	<set xpath="/entity_classes/entity_class[@name='animalStag']/property[@name='TimeStayAfterDeath']/@value">
-		9000
+		900
 	</set>
 	<!-- no screamers -->
 	<set xpath="/entity_classes/entity_class[@name='zombieScreamer']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">
@@ -31,8 +32,8 @@
 	</set>
 	<!-- boom headshot -->
 	<append xpath="/entity_classes/entity_class[@name='playerMale']/effect_group">
-		<passive_effect name="DamageModifier" operation="perc_subtract" value="0.9" tags="chest,legs,arms" />
-		<passive_effect name="DamageModifier" operation="perc_add" value="3" tags="head" />
+		<passive_effect name="DamageModifier" operation="perc_subtract" value="0.8" tags="chest,legs,arms" />
+		<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="head" />
 	</append>
 	<set xpath="/entity_classes/entity_class/property[@name='DismemberMultiplierHead']/@value">
 		2
