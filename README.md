@@ -20,7 +20,7 @@ Items in *italics* are *untested*
 - *Some existing environment blocks such as furniture can be used for improvised barricades*
 - *Locked doors can be now be picked*
 - *Sneak attacks do not require crouching, only not-detected status*
-- Increases most corpse despawn timer to 10 minutes FOR THE IMMERSION
+- Increases most corpse despawn timer to 15 minutes FOR THE IMMERSION
 - Fixes stun baton bugs related to perk progression 
 - Night is much darker
 - Axes deal slashing damage type
@@ -34,10 +34,10 @@ Items in *italics* are *untested*
 
 ### Zombies
 - Removes Screamers and Spiders entirely
-- Nerfs zombie movement speeds while maintaining some variance
 - Nerfs zombie swim speed so they basically walk along the sea floor
 - Disables zombie jumping and climbing
-- Drastically increases headshot damage and dismemberment chance
+- 80% zombie body, arm and leg damage
+- 200% headshot damage and dismemberment chance
 - Reduces zombie melee range slightly
 - Increased loot drop rate
 
@@ -46,7 +46,6 @@ Items in *italics* are *untested*
 - Reduces or removes vehicle collision damage from small environment objects
 
 ### Crafting & Loot
-- Increases stack sizes for most smaller items
 - Loot containers such as purses and bags are no longer destroyed when searched, even if empty
 - Increased feather and egg drop rates from bird nests
 - Tires can be picked up from the environment
