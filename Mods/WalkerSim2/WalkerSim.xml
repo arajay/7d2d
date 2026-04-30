@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WalkerSim xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://zeh.matt/WalkerSim WalkerSimSchema.xsd" Version="2"
-  xmlns="http://zeh.matt/WalkerSim">
+<WalkerSim xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://zeh.matt/WalkerSim WalkerSimSchema.xsd" Version="2" xmlns="http://zeh.matt/WalkerSim">
   <Logging>
     <General>true</General>
     <Spawns>false</Spawns>
@@ -10,12 +8,12 @@
     <Events>false</Events>
   </Logging>
   <RandomSeed>665992037</RandomSeed>
-  <PopulationDensity>512</PopulationDensity>
+  <PopulationDensity>256</PopulationDensity>
   <SpawnActivationRadius>96</SpawnActivationRadius>
   <StartAgentsGrouped>false</StartAgentsGrouped>
   <EnhancedSoundAwareness>true</EnhancedSoundAwareness>
   <SoundDistanceScale>1</SoundDistanceScale>
-  <GroupSize>128</GroupSize>
+  <GroupSize>64</GroupSize>
   <AgentStartPosition>RandomCity</AgentStartPosition>
   <AgentRespawnPosition>RandomCity</AgentRespawnPosition>
   <PauseDuringBloodmoon>true</PauseDuringBloodmoon>
@@ -23,29 +21,31 @@
   <InfiniteZombieLifetime>true</InfiniteZombieLifetime>
   <MaxSpawnedZombies>75%</MaxSpawnedZombies>
   <PopulationStartPercent>1</PopulationStartPercent>
-  <FullPopulationAtDay>365</FullPopulationAtDay>
+  <FullPopulationAtDay>128</FullPopulationAtDay>
   <Systems>
     <System Name="Base" Weight="1" SpeedScale="1" PostSpawnBehavior="Wander" PostSpawnWanderSpeed="Walk" Color="#FF00FF">
-      <Processor Type="WorldEvents" Distance="50" Power="1" />
+      <Processor Type="WorldEvents" Distance="50" Power="0.5" />
+      <Processor Type="AvoidBiome" Distance="50" Power="0.6" Param1="3" Param2="3" />
+      <Processor Type="AvoidAnyGroup" Distance="3" Power="0.89" />
       <Processor Type="FlockAnyGroup" Distance="512" Power="0.9" />
-      <Processor Type="StickToRoads" Distance="50" Power="0.98" />
-      <Processor Type="PreferCities" Distance="50" Power="0.97" />
-      <Processor Type="AvoidBiome" Distance="50" Power="0.96" Param1="3" Param2="3" />
-      <Processor Type="AvoidAnyGroup" Distance="3" Power="0.95" />
       <Processor Type="FlockSameGroup" Distance="64" Power="0.94" />
+      <Processor Type="PreferCities" Distance="50" Power="0.97" />
+      <Processor Type="StickToRoads" Distance="50" Power="0.98" />
     </System>
     <System Name="City Horde" Weight="3" SpeedScale="1" PostSpawnBehavior="Wander" PostSpawnWanderSpeed="Walk" Color="#00E600">
-      <Processor Type="WorldEvents" Distance="50" Power="1" />
-      <Processor Type="FlockAnyGroup" Distance="64" Power="0.9" />
-      <Processor Type="PreferCities" Distance="50" Power="0.99" />
-      <Processor Type="AvoidBiome" Distance="50" Power="0.98" Param1="3" Param2="3" />
+      <Processor Type="WorldEvents" Distance="50" Power="0.5" />
+      <Processor Type="AvoidBiome" Distance="50" Power="0.6" Param1="3" Param2="3" />
       <Processor Type="AvoidAnyGroup" Distance="3" Power="0.89" />
+      <Processor Type="FlockAnyGroup" Distance="64" Power="0.9" />
+      <Processor Type="PreferCities" Distance="50" Power="1" />
     </System>
     <System Name="Road Horde" Weight="1" SpeedScale="1" PostSpawnBehavior="Wander" PostSpawnWanderSpeed="Walk" Color="#00E6FF">
-      <Processor Type="WorldEvents" Distance="50" Power="0.91" />
-      <Processor Type="StickToRoads" Distance="50" Power="1" />
-      <Processor Type="CityVisitor" Distance="50" Power="0.99" Param1="1" Param2="2" />
+      <Processor Type="WorldEvents" Distance="50" Power="0.5" />
+      <Processor Type="AvoidBiome" Distance="50" Power="0.6" Param1="3" Param2="3" />
       <Processor Type="AvoidAnyGroup" Distance="3" Power="0.89" />
+      <Processor Type="FlockSameGroup" Distance="64" Power="0.9" />
+      <Processor Type="CityVisitor" Distance="50" Power="0.99" Param1="1" Param2="2" />
+      <Processor Type="StickToRoads" Distance="50" Power="1" />
     </System>
   </Systems>
 </WalkerSim>
