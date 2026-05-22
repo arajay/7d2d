@@ -4,34 +4,22 @@
         <property name="CanPickup" value="true"/>
     </append>
 
-    <!-- bigger stack sizes  -->
-    <set xpath="/blocks/block[contains(@name, 'candle')]/property[@name='Stacknumber']/@value">64</set>
-    <set xpath="/blocks/block[contains(@name, 'mine')]/property[@name='Stacknumber']/@value">16</set>
-    <append xpath="/blocks/block[@name='cropsHarvestableMaster']">
-        <property name="Stacknumber" value="16"/>
+    <!-- make broken vending machines lootable instead of dropping loot when destroyed -->
+    <append xpath="/blocks/block[@name='cntVendingMachine2Broken']">
+        <property name="Class" value="Loot"/>
+        <property name="LootList" value="vendingMachineDrinkBroken"/>
+        <dropextendsoff/>
     </append>
-    <append xpath="/blocks/block[@name='cropsGrowingMaster']">
-        <property name="Stacknumber" value="16"/>
+
+    <append xpath="/blocks/block[@name='cntVendingMachineSnacksFullBroken']">
+        <property name="Class" value="Loot"/>
+        <property name="LootList" value="vendingMachineFoodBroken"/>
+        <dropextendsoff/>
     </append>
-    <append xpath="/blocks/block[@name='treeMaster']">
-        <property name="Stacknumber" value="16"/>
-    </append>
-    <append xpath="/blocks/block[contains(@name, 'planted')]">
-        <property name="Stacknumber" value="16"/>
-    </append>
-    <append xpath="/blocks/block[contains(@name, 'ladder')]">
-        <property name="Stacknumber" value="16"/>
-    </append>
-    <append xpath="/blocks/block[contains(@name, 'Door')]">
-        <property name="Stacknumber" value="16"/>
-    </append>
-    <append xpath="/blocks/block[contains(@name, 'Hatch')]">
-        <property name="Stacknumber" value="16"/>
-    </append>
-    <append xpath="/blocks/block[@name='frameShapes']">
-        <property name="Stacknumber" value="16"/>
-    </append>
-    <append xpath="/blocks/block[contains(@name, 'cnt')]">
-        <property name="Stacknumber" value="16"/>
+
+    <append xpath="/blocks/block[@name='cntVendingMachineSnacksEmptyBroken']">
+        <property name="Class" value="Loot"/>
+        <property name="LootList" value="vendingMachineFoodBroken"/>
+        <dropextendsoff/>
     </append>
 </blocks>	

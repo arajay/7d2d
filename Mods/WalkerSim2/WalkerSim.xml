@@ -8,44 +8,38 @@
     <Events>false</Events>
   </Logging>
   <RandomSeed>665992037</RandomSeed>
-  <PopulationDensity>256</PopulationDensity>
-  <SpawnActivationRadius>96</SpawnActivationRadius>
-  <StartAgentsGrouped>false</StartAgentsGrouped>
+  <PopulationDensity>512</PopulationDensity>
+  <SpawnActivationRadius>128</SpawnActivationRadius>
+  <StartAgentsGrouped>true</StartAgentsGrouped>
   <EnhancedSoundAwareness>true</EnhancedSoundAwareness>
-  <SoundDistanceScale>1</SoundDistanceScale>
-  <GroupSize>64</GroupSize>
+  <SoundDistanceScale>0.7</SoundDistanceScale>
+  <GroupSize>1</GroupSize>
   <AgentStartPosition>RandomCity</AgentStartPosition>
   <AgentRespawnPosition>RandomCity</AgentRespawnPosition>
-  <PauseDuringBloodmoon>true</PauseDuringBloodmoon>
+  <PauseDuringBloodmoon>false</PauseDuringBloodmoon>
   <SpawnProtectionTime>600</SpawnProtectionTime>
   <InfiniteZombieLifetime>true</InfiniteZombieLifetime>
   <MaxSpawnedZombies>75%</MaxSpawnedZombies>
-  <PopulationStartPercent>1</PopulationStartPercent>
-  <FullPopulationAtDay>128</FullPopulationAtDay>
+  <PopulationStartPercent>10</PopulationStartPercent>
+  <FullPopulationAtDay>28</FullPopulationAtDay>
   <Systems>
-    <System Name="Base" Weight="1" SpeedScale="1" PostSpawnBehavior="Wander" PostSpawnWanderSpeed="Walk" Color="#FF00FF">
-      <Processor Type="WorldEvents" Distance="50" Power="0.5" />
-      <Processor Type="AvoidBiome" Distance="50" Power="0.6" Param1="3" Param2="3" />
-      <Processor Type="AvoidAnyGroup" Distance="3" Power="0.89" />
-      <Processor Type="FlockAnyGroup" Distance="512" Power="0.9" />
-      <Processor Type="FlockSameGroup" Distance="64" Power="0.94" />
-      <Processor Type="PreferCities" Distance="50" Power="0.97" />
-      <Processor Type="StickToRoads" Distance="50" Power="0.98" />
+    <System Name="City Horde" Weight="1" SpeedScale="1" PostSpawnBehavior="Wander" PostSpawnWanderSpeed="Walk" Color="#00E600">
+      <Processor Type="WorldEvents" Distance="50" Power="1" />
+      <Processor Type="PreferCities" Distance="50" Power="0.5" />
+      <Processor Type="StickToPOIs" Distance="50" Power="0.3" />
     </System>
-    <System Name="City Horde" Weight="3" SpeedScale="1" PostSpawnBehavior="Wander" PostSpawnWanderSpeed="Walk" Color="#00E600">
-      <Processor Type="WorldEvents" Distance="50" Power="0.5" />
-      <Processor Type="AvoidBiome" Distance="50" Power="0.6" Param1="3" Param2="3" />
-      <Processor Type="AvoidAnyGroup" Distance="3" Power="0.89" />
-      <Processor Type="FlockAnyGroup" Distance="64" Power="0.9" />
-      <Processor Type="PreferCities" Distance="50" Power="1" />
+    <System Name="Road Horde" Weight="0.1" SpeedScale="1" PostSpawnBehavior="Wander" PostSpawnWanderSpeed="Walk" Color="#00aaff">
+      <Processor Type="WorldEvents" Distance="50" Power="1" />
+      <Processor Type="StickToRoads" Distance="50" Power="0.9" />
+      <Processor Type="FlockAnyGroup" Distance="12" Power="0.7" />
+      <Processor Type="CityVisitor" Distance="50" Power="0.8" Param1="20" Param2="40" />
     </System>
-    <System Name="Road Horde" Weight="1" SpeedScale="1" PostSpawnBehavior="Wander" PostSpawnWanderSpeed="Walk" Color="#00E6FF">
-      <Processor Type="WorldEvents" Distance="50" Power="0.5" />
-      <Processor Type="AvoidBiome" Distance="50" Power="0.6" Param1="3" Param2="3" />
-      <Processor Type="AvoidAnyGroup" Distance="3" Power="0.89" />
-      <Processor Type="FlockSameGroup" Distance="64" Power="0.9" />
-      <Processor Type="CityVisitor" Distance="50" Power="0.99" Param1="1" Param2="2" />
-      <Processor Type="StickToRoads" Distance="50" Power="1" />
+    <System Name="Loner" Weight="0.1" SpeedScale="1" PostSpawnBehavior="ChaseActivator" PostSpawnWanderSpeed="Walk" Color="#FF8F00">
+      <Processor Type="AvoidOtherGroup" Distance="8" Power="0.5" />
+      <Processor Type="CityVisitor" Distance="50" Power="1" Param1="20" Param2="40" />
+      <Processor Type="AvoidSameGroup" Distance="32" Power="0.5" />
+      <Processor Type="WorldEvents" Distance="50" Power="1" />
+      <Processor Type="FlockAnyGroup" Distance="50" Power="0.1" />
     </System>
   </Systems>
 </WalkerSim>

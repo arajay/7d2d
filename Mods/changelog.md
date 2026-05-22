@@ -24,3 +24,4 @@
 - Rebalanced archery damage for viable endgame builds
 - Small simple boat(s)
 - Persistent corpses
+- Spawn sleepers when in range, not when triggered

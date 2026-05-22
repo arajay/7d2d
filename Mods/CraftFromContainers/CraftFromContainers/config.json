@@ -1,0 +1,12 @@
+{
+  "modEnabled": true,
+  "isDebug": false,
+  "enableForRepairAndUpgrade": true,
+  "enableForTrader": true,
+  "enableForRefuel": true,
+  "enableForReload": true,
+  "enableFromVehicles": true,
+  "allowLockedContainers": true,
+  "allowAllContainers": true,
+  "range": -1.0
+}

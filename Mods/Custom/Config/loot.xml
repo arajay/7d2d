@@ -88,8 +88,8 @@
 	</append>
 	<remove xpath="/lootcontainers/lootgroup[@name='groupLaundry']/item[@group='groupLaundry01']" />
 	<set xpath="/lootcontainers/lootgroup[@name='groupLaundry']/item[@group='groupLaundry02']/@loot_prob_template">high</set>
-4
-		<!-- dew collector -->
+
+	<!-- dew collector -->
 	<remove xpath="/lootcontainers/lootgroup[@name='groupDewCollectorLoot01']/item[@name='workstationSkillMagazine']" />
 	<remove xpath="/lootcontainers/lootgroup[@name='groupDewCollectorLoot02']/item[@name='workstationSkillMagazine']" />
 	<remove xpath="/lootcontainers/lootgroup[@name='groupDewCollector']/item[@name='workstationSkillMagazine']" />
@@ -103,5 +103,19 @@
 	<append xpath="/lootcontainers/lootgroup[@name='groupIntroBuriedSupplies']">
 		<item group="groupArmorScaled" />
 		<item group="groupWeaponsAllScaledNoParts" />
+	</append>
+
+	<!-- broken vending machines should be openable loot containers instead of dropping loot on destroy -->
+	<append xpath="/lootcontainers">
+		<lootcontainer name="vendingMachineDrinkBroken" count="3" size="6,2" sound_open="open_vending" sound_close="close_vending" loot_quality_template="qualBaseTemplate" destroy_on_close="empty">
+			<item group="groupDrinksCommon" count="1,2" loot_prob_template="low" />
+			<item group="groupDrinksUncommon" count="1,2" loot_prob_template="low" />
+			<item group="groupDrinksRare" count="1" loot_prob_template="low" />
+		</lootcontainer>
+		<lootcontainer name="vendingMachineFoodBroken" count="3" size="6,2" sound_open="open_vending" sound_close="close_vending" loot_quality_template="qualBaseTemplate" destroy_on_close="empty">
+			<item group="groupFoodCommon" count="1,2" loot_prob_template="low" />
+			<item group="groupFoodUncommon" count="1,2" loot_prob_template="low" />
+			<item group="groupFoodRare" count="1" loot_prob_template="low" />
+		</lootcontainer>
 	</append>
 </configs>
