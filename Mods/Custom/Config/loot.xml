@@ -19,10 +19,10 @@
 	<remove xpath="/lootcontainers/lootgroup[@name='groupDumpster01']/item[@group='seeds']" />
 
 	<!-- bird nest -->
-	<set xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']/item[@name='resourceFeather']/@count">1,16</set>
-	<set xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']/item[@name='foodEgg']/@loot_prob_template">veryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']/item[@name='resourceFeather']/@count">1,5</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']/item[@name='foodEgg']/@loot_prob_template">low</set>
 	<append xpath="/lootcontainers/lootgroup[@name='groupBirdNest01']">
-		<item name="foodEgg" count="2,6" loot_prob_template="veryLow" />
+		<item name="foodEgg" count="2,3" loot_prob_template="low" />
 	</append>
 
 	<!-- grill -->
