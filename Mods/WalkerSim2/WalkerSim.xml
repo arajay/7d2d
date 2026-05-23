@@ -21,7 +21,7 @@
   <PauseDuringBloodmoon>false</PauseDuringBloodmoon>
   <SpawnProtectionTime>600</SpawnProtectionTime>
   <InfiniteZombieLifetime>true</InfiniteZombieLifetime>
-  <MaxSpawnedZombies>75%</MaxSpawnedZombies>
+  <MaxSpawnedZombies>70%</MaxSpawnedZombies>
   <PopulationStartPercent>10</PopulationStartPercent>
   <FullPopulationAtDay>28</FullPopulationAtDay>
   <Systems>
