@@ -1,0 +1,4 @@
+# Enforce consistent line endings in this repository
+# Treat text files normally and keep XML files as LF in the repository.
+* text=auto
+*.xml text eol=lf

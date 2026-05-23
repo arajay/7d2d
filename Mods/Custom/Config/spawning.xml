@@ -2,62 +2,6 @@
 	<!-- block all ambient zombie spawning -->
 	<set xpath="/spawning/biome/spawn[contains(@entitygroup,'Zombies')]/@maxcount">0</set>
 
-	<set xpath="/spawning/biome/spawn[@entitygroup='ZombiesAll']/@maxcount">
-		0
-	</set>
-	<set xpath="/spawning/biome/spawn[@entitygroup='ZombiesNight']/@maxcount">
-		0
-	</set>
-	<set xpath="/spawning/biome/spawn[@entitygroup='ZombiesWasteland']/@maxcount">
-		0
-	</set>
-	<set xpath="/spawning/biome/spawn[@entitygroup='ZombiesWastelandNight']/@maxcount">
-		0
-	</set>
-	<set xpath="/spawning/biome/spawn[@entitygroup='ZombiesBurntForest']/@maxcount">
-		0
-	</set>
-	<set xpath="/spawning/biome/spawn[@entitygroup='ZombiesDowntown']/@maxcount">
-		0
-	</set>
-	<set xpath="/spawning/biome/spawn[@entitygroup='ZombiesForestDowntown']/@maxcount">
-		0
-	</set>
-	<set xpath="/spawning/biome/spawn[@entitygroup='ZombiesForestDowntownNight']/@maxcount">
-		0
-	</set>
-	<set xpath="/spawning/biome/spawn[@entitygroup='ZombiesWastelandDowntown']/@maxcount">
-		0
-	</set>
-
 	<!-- nerf animals -->
 	<set xpath="/spawning/biome/spawn[contains(@entitygroup,'EnemyAnimals')]/@respawndelay">7</set>
-	<!-- 
-	<set xpath="/spawning/biome/spawn[@entitygroup='EnemyAnimalsForest']/@respawndelay">
-		7
-	</set>
-	<set xpath="/spawning/biome/spawn[@entitygroup='EnemyAnimalsBurntForestAny']/@respawndelay">
-		7
-	</set>
-	<set xpath="/spawning/biome/spawn[@entitygroup='EnemyAnimalsBurntForestNight']/@respawndelay">
-		7
-	</set>
-	<set xpath="/spawning/biome/spawn[@entitygroup='EnemyAnimalsDesert']/@respawndelay">
-		7
-	</set>
-	<set xpath="/spawning/biome/spawn[@entitygroup='EnemyAnimalsDesertNight']/@respawndelay">
-		7
-	</set>
-	<set xpath="/spawning/biome/spawn[@entitygroup='EnemyAnimalsSnow']/@respawndelay">
-		7
-	</set>
-	<set xpath="/spawning/biome/spawn[@entitygroup='EnemyAnimalsSnowNight']/@respawndelay">
-		7
-	</set>
-	<set xpath="/spawning/biome/spawn[@entitygroup='EnemyAnimalsWasteland']/@respawndelay">
-		7
-	</set>
-	<set xpath="/spawning/biome/spawn[@entitygroup='EnemyAnimalsWastelandNight']/@respawndelay">
-		7
-	</set> -->
 </DurielSpawnConfigs>

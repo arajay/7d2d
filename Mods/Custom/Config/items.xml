@@ -3,37 +3,6 @@
 	<set xpath="/items/item[@name='meleeHandMaster']/property[@class='Action0']/property[@name='Range']/@value">1.4</set>	<!-- default = 1.65 -->
 	<set xpath="/items/item[@name='meleeHandZombieCop']/property[@class='Action0']/property[@name='Range']/@value">1.4</set>	<!-- default = 1.75 -->
 
-	<!-- increase stack sizes (one representative doubled value per pattern) -->
-	<!-- <set xpath="/items/item[contains(@name,'drinkJar')]/property[@name='Stacknumber']/@value">32</set>
-	<set xpath="/items/item[contains(@name,'SkillMagazine')]/property[@name='Stacknumber']/@value">64</set>
-	<set xpath="/items/item[contains(@name,'Parts')]/property[@name='Stacknumber']/@value">128</set>
-	<set xpath="/items/item[contains(@name,'food')]/property[@name='Stacknumber']/@value">32</set>
-	<set xpath="/items/item[contains(@name,'medical')]/property[@name='Stacknumber']/@value">30</set>
-	<set xpath="/items/item[contains(@name,'resource')]/property[@name='Stacknumber']/@value">64</set>
-	<set xpath="/items/item[contains(@name,'drug')]/property[@name='Stacknumber']/@value">32</set>
-	<set xpath="/items/item[contains(@name,'ammo')]/property[@name='Stacknumber']/@value">600</set>
-	<set xpath="/items/item[contains(@name,'thrown')]/property[@name='Stacknumber']/@value">64</set>
-	<set xpath="/items/item[contains(@name,'candle')]/property[@name='Stacknumber']/@value">128</set>
-	<set xpath="/items/item[@name='toolCookingPot']/property[@name='Stacknumber']/@value">6</set>
-	<set xpath="/items/item[@name='toolCookingGrill']/property[@name='Stacknumber']/@value">6</set>
-	<set xpath="/items/item[@name='toolBeaker']/property[@name='Stacknumber']/@value">32</set>
-	<set xpath="/items/item[@name='bucketEmpty']/property[@name='Stacknumber']/@value">16</set>
-	<set xpath="/items/item[@name='bucketRiverWater']/property[@name='Stacknumber']/@value">16</set>
-	<set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">64000</set>
-	<set xpath="/items/item[@name='oldCash']/property[@name='Stacknumber']/@value">32000</set>
-	<set xpath="/items/item[@name='schematicMaster']/property[@name='Stacknumber']/@value">64</set>
-	<set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/property[@name='Stacknumber']/@value">32</set> -->
-
-	<!-- <append xpath="/items/item[contains(@name, 'book')]">
-		<property name="Stacknumber" value="16"/>
-	</append>
-	<append xpath="/items/item[contains(@name, 'qt_')]">
-		<property name="Stacknumber" value="16"/>
-	</append>
-	<append xpath="/items/item[@name='vehicleWheels']">
-		<property name="Stacknumber" value="4"/>
-	</append> -->
-
 	<!-- add slashing damage type to axes -->
 	<append xpath="/items/item[contains(@name,'meleeToolAxe')]/property[@class='Action0']">
 		<property name="Damage_type" value="Slashing"/>

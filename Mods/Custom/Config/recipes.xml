@@ -1,11 +1,4 @@
 <recipes>
-    <!-- remove all glass jar crafting recipes -->
-    <!-- <remove xpath="/recipes/recipe[starts-with(@name, 'drinkJar')]" /> -->
-
-    <!-- remove all ammunition crafting recipes -->
-    <!-- <remove xpath="/recipes/recipe[contains(@name, 'Bullet')]" />
-    <remove xpath="/recipes/recipe[contains(@name, 'Shell')]" /> -->
-
     <!-- change wheel crafting to use scrap tires -->
     <remove xpath="/recipes/recipe[@name='vehicleWheels']" />
 
@@ -43,4 +36,8 @@
             </effect_group>
         </recipe>
     </append>
+
+    <!-- change charred and grilled meat recipes to use 2 raw meat instead of 5 -->
+    <set xpath="/recipes/recipe[@name='foodCharredMeat']/ingredient[@name='foodRawMeat']/@count">2</set>
+    <set xpath="/recipes/recipe[@name='foodGrilledMeat']/ingredient[@name='foodRawMeat']/@count">2</set>
 </recipes>

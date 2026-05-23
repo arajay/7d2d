@@ -1,6 +1,6 @@
 <entities>
 	<!-- increase zombie loot drops -->
-	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[contains(@name, 'LootDropProb')]/@value">.07</set>
+	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[contains(@name, 'LootDropProb')]/@value">.05</set>
 	<!-- zombie nerfs -->
 	<!-- no climbing -->
 	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='CanClimbLadders']/@value">
@@ -13,15 +13,15 @@
 	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='SwimStrokeRate']/@value">
 		0.5, 1
 	</set>
-	<!-- persistent 15m corpses  -->
+	<!-- persistent 10m corpses  -->
 	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='TimeStayAfterDeath']/@value">
-		900
+		600
 	</set>
 	<set xpath="/entity_classes/entity_class[@name='animalTemplateTimid']/property[@name='TimeStayAfterDeath']/@value">
-		900
+		600
 	</set>
 	<set xpath="/entity_classes/entity_class[@name='animalStag']/property[@name='TimeStayAfterDeath']/@value">
-		900
+		600
 	</set>
 	<!-- no screamers -->
 	<set xpath="/entity_classes/entity_class[@name='zombieScreamer']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">
@@ -32,19 +32,19 @@
 	</set>
 	<!-- boom headshot -->
 	<append xpath="/entity_classes/entity_class[@name='playerMale']/effect_group">
-		<passive_effect name="DamageModifier" operation="perc_subtract" value="0.9" tags="chest,legs,arms" />
+		<passive_effect name="DamageModifier" operation="perc_subtract" value="0.99" tags="chest,legs,arms" />
 		<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="head" />
 	</append>
 	<set xpath="/entity_classes/entity_class/property[@name='DismemberMultiplierHead']/@value">
-		2
+		1.5
 	</set>
 	<set xpath="/entity_classes/entity_class/property[@name='HeadExplosionDamageMultiplier']/@value">
-		2
+		1.5
 	</set>
 	<!-- Remove all XP gained from selling items to traders -->
 	<append xpath="/entity_classes/entity_class[@name='playerMale']">
 		<effect_group name="Remove Trader XP">
-			<passive_effect name="PlayerExpGain" operation="base_set" value="0" tags="Selling"/>
+			<passive_effect name="PlayerExpGain" operation="base_set" value="1" tags="Selling"/>
 		</effect_group>
 	</append>
 </entities>
