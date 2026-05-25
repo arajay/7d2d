@@ -14,7 +14,7 @@
   <SpawnActivationRadius>128</SpawnActivationRadius>
   <StartAgentsGrouped>true</StartAgentsGrouped>
   <EnhancedSoundAwareness>true</EnhancedSoundAwareness>
-  <SoundDistanceScale>0.7</SoundDistanceScale>
+  <SoundDistanceScale>1</SoundDistanceScale>
   <GroupSize>1</GroupSize>
   <AgentStartPosition>RandomCity</AgentStartPosition>
   <AgentRespawnPosition>RandomCity</AgentRespawnPosition>
@@ -30,15 +30,15 @@
       <Processor Type="PreferCities" Distance="50" Power="0.5" />
       <Processor Type="StickToPOIs" Distance="50" Power="0.3" />
     </System>
-    <System Name="Road Horde" Weight="0.1" SpeedScale="1" PostSpawnBehavior="Wander" PostSpawnWanderSpeed="Walk" Color="#00aaff">
+    <System Name="Road Horde" Weight="0.2" SpeedScale="1" PostSpawnBehavior="Wander" PostSpawnWanderSpeed="Walk" Color="#00aaff">
       <Processor Type="WorldEvents" Distance="50" Power="1" />
       <Processor Type="StickToRoads" Distance="50" Power="0.9" />
-      <Processor Type="CityVisitor" Distance="50" Power="0.8" Param1="20" Param2="40" />
+      <Processor Type="CityVisitor" Distance="50" Power="0.8" Param1="10" Param2="20" />
       <Processor Type="FlockAnyGroup" Distance="12" Power="0.7" />
     </System>
     <System Name="Loner" Weight="0.1" SpeedScale="1" PostSpawnBehavior="ChaseActivator" PostSpawnWanderSpeed="Walk" Color="#FF8F00">
       <Processor Type="WorldEvents" Distance="50" Power="1" />
-      <Processor Type="CityVisitor" Distance="50" Power="0.9" Param1="20" Param2="40" />
+      <Processor Type="CityVisitor" Distance="50" Power="0.9" Param1="1" Param2="2" />
       <Processor Type="AvoidOtherGroup" Distance="8" Power="0.5" />
       <Processor Type="AvoidSameGroup" Distance="32" Power="0.5" />
     </System>
