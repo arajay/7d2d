@@ -25,20 +25,20 @@
   <PopulationStartPercent>10</PopulationStartPercent>
   <FullPopulationAtDay>28</FullPopulationAtDay>
   <Systems>
-    <System Name="City Horde" Weight="1" SpeedScale="1" PostSpawnBehavior="Wander" PostSpawnWanderSpeed="Walk" Color="#00E600">
-      <Processor Type="WorldEvents" Distance="50" Power="1" />
+    <System Name="City Horde" Weight="10" SpeedScale="1" PostSpawnBehavior="Wander" PostSpawnWanderSpeed="Walk" MapEdgeBehavior="Warp" Color="#00E600">
+      <Processor Type="WorldEvents" Distance="50" Power="0.9" />
       <Processor Type="PreferCities" Distance="50" Power="0.5" />
       <Processor Type="StickToPOIs" Distance="50" Power="0.3" />
     </System>
-    <System Name="Road Horde" Weight="0.2" SpeedScale="1" PostSpawnBehavior="Wander" PostSpawnWanderSpeed="Walk" Color="#00aaff">
-      <Processor Type="WorldEvents" Distance="50" Power="1" />
-      <Processor Type="StickToRoads" Distance="50" Power="0.9" />
-      <Processor Type="CityVisitor" Distance="50" Power="0.8" Param1="10" Param2="20" />
-      <Processor Type="FlockAnyGroup" Distance="12" Power="0.7" />
+    <System Name="Road Horde" Weight="2" SpeedScale="1" PostSpawnBehavior="Wander" PostSpawnWanderSpeed="Walk" MapEdgeBehavior="Warp" Color="#00aaff">
+      <Processor Type="WorldEvents" Distance="50" Power="0.9" />
+      <Processor Type="StickToRoads" Distance="50" Power="0.8" />
+      <Processor Type="CityVisitor" Distance="50" Power="0.7" Param1="10" Param2="20" />
+      <Processor Type="FlockAnyGroup" Distance="12" Power="0.6" />
     </System>
-    <System Name="Loner" Weight="0.1" SpeedScale="1" PostSpawnBehavior="ChaseActivator" PostSpawnWanderSpeed="Walk" Color="#FF8F00">
-      <Processor Type="WorldEvents" Distance="50" Power="1" />
-      <Processor Type="CityVisitor" Distance="50" Power="0.9" Param1="1" Param2="2" />
+    <System Name="Loner" Weight="1" SpeedScale="1" PostSpawnBehavior="ChaseActivator" PostSpawnWanderSpeed="Walk" MapEdgeBehavior="Warp" Color="#FF8F00">
+      <Processor Type="WorldEvents" Distance="50" Power="0.9" />
+      <Processor Type="CityVisitor" Distance="50" Power="0.8" Param1="1" Param2="2" />
       <Processor Type="AvoidOtherGroup" Distance="8" Power="0.5" />
       <Processor Type="AvoidSameGroup" Distance="32" Power="0.5" />
     </System>
