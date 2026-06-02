@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WalkerSim xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://zeh.matt/WalkerSim WalkerSimSchema.xsd" Version="2"
-  xmlns="http://zeh.matt/WalkerSim">
+<WalkerSim xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://zeh.matt/WalkerSim WalkerSimSchema.xsd" Version="2" xmlns="http://zeh.matt/WalkerSim">
   <Logging>
     <General>true</General>
     <Spawns>false</Spawns>
@@ -10,11 +8,11 @@
     <Events>false</Events>
   </Logging>
   <RandomSeed>665992037</RandomSeed>
-  <PopulationDensity>512</PopulationDensity>
+  <PopulationDensity>128</PopulationDensity>
   <SpawnActivationRadius>128</SpawnActivationRadius>
   <StartAgentsGrouped>true</StartAgentsGrouped>
   <EnhancedSoundAwareness>true</EnhancedSoundAwareness>
-  <SoundDistanceScale>1</SoundDistanceScale>
+  <SoundDistanceScale>0.7</SoundDistanceScale>
   <GroupSize>1</GroupSize>
   <AgentStartPosition>RandomCity</AgentStartPosition>
   <AgentRespawnPosition>RandomCity</AgentRespawnPosition>
@@ -22,21 +20,21 @@
   <SpawnProtectionTime>600</SpawnProtectionTime>
   <InfiniteZombieLifetime>true</InfiniteZombieLifetime>
   <MaxSpawnedZombies>70%</MaxSpawnedZombies>
-  <PopulationStartPercent>10</PopulationStartPercent>
-  <FullPopulationAtDay>28</FullPopulationAtDay>
+  <PopulationStartPercent>100</PopulationStartPercent>
+  <FullPopulationAtDay>1</FullPopulationAtDay>
   <Systems>
-    <System Name="City Horde" Weight="10" SpeedScale="1" PostSpawnBehavior="Wander" PostSpawnWanderSpeed="Walk" MapEdgeBehavior="Warp" Color="#00E600">
+    <System Name="City Horde" Weight="10" SpeedScale="1" PostSpawnBehavior="Wander" PostSpawnWanderSpeed="Walk" Color="#00E600">
       <Processor Type="WorldEvents" Distance="50" Power="0.9" />
       <Processor Type="PreferCities" Distance="50" Power="0.5" />
       <Processor Type="StickToPOIs" Distance="50" Power="0.3" />
     </System>
-    <System Name="Road Horde" Weight="2" SpeedScale="1" PostSpawnBehavior="Wander" PostSpawnWanderSpeed="Walk" MapEdgeBehavior="Warp" Color="#00aaff">
+    <System Name="Road Horde" Weight="2" SpeedScale="1" PostSpawnBehavior="Wander" PostSpawnWanderSpeed="Walk" Color="#00aaff">
       <Processor Type="WorldEvents" Distance="50" Power="0.9" />
       <Processor Type="StickToRoads" Distance="50" Power="0.8" />
       <Processor Type="CityVisitor" Distance="50" Power="0.7" Param1="10" Param2="20" />
       <Processor Type="FlockAnyGroup" Distance="12" Power="0.6" />
     </System>
-    <System Name="Loner" Weight="1" SpeedScale="1" PostSpawnBehavior="ChaseActivator" PostSpawnWanderSpeed="Walk" MapEdgeBehavior="Warp" Color="#FF8F00">
+    <System Name="Loner" Weight="1" SpeedScale="1" PostSpawnBehavior="ChaseActivator" PostSpawnWanderSpeed="Walk" Color="#FF8F00">
       <Processor Type="WorldEvents" Distance="50" Power="0.9" />
       <Processor Type="CityVisitor" Distance="50" Power="0.8" Param1="1" Param2="2" />
       <Processor Type="AvoidOtherGroup" Distance="8" Power="0.5" />

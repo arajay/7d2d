@@ -1,4 +1,4 @@
-﻿<configs>
+<configs>
 	<!-- // ********  ******** -->
 	<append xpath="/blocks/block[@name='doorWoodLargeGate']/property[@name='Tags']/@value">,openbyhorn,distlong</append>
 	
