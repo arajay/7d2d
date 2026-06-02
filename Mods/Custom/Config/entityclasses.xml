@@ -23,13 +23,6 @@
 	<set xpath="/entity_classes/entity_class[@name='animalStag']/property[@name='TimeStayAfterDeath']/@value">
 		600
 	</set>
-	<!-- no screamers -->
-	<set xpath="/entity_classes/entity_class[@name='zombieScreamer']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">
-		0
-	</set>
-	<set xpath="/entity_classes/entity_class[@extends='zombieScreamer']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">
-		0
-	</set>
 	<!-- boom headshot -->
 	<append xpath="/entity_classes/entity_class[@name='playerMale']/effect_group">
 		<passive_effect name="DamageModifier" operation="perc_subtract" value="0.99" tags="chest,legs,arms" />
@@ -41,7 +34,7 @@
 	<set xpath="/entity_classes/entity_class/property[@name='HeadExplosionDamageMultiplier']/@value">
 		1.5
 	</set>
-	<!-- Remove all XP gained from selling items to traders -->
+	<!-- Remove XP gained from selling items to traders -->
 	<append xpath="/entity_classes/entity_class[@name='playerMale']">
 		<effect_group name="Remove Trader XP">
 			<passive_effect name="PlayerExpGain" operation="base_set" value="1" tags="Selling"/>

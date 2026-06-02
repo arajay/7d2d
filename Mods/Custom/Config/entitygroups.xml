@@ -1,0 +1,25 @@
+<configs>
+
+    <!-- DESERT_BIOME -->
+    <csv xpath="/entitygroups/entitygroup[@name='ZombiesDesert']/text()" delim="\n" op="remove">zombieRancher</csv>
+    <csv xpath="/entitygroups/entitygroup[@name='ZombiesDesertNight']/text()" delim="\n" op="remove">zombieRancher*</csv>
+    <csv xpath="/entitygroups/entitygroup[@name='ZombiesDesert']/text()" delim="\n" op="add">
+		zombieRancher, .025
+    </csv>
+    <csv xpath="/entitygroups/entitygroup[@name='ZombiesDesertNight']/text()" delim="\n" op="add">
+		zombieRancher, .025
+		zombieRancherFeral, .0025
+    </csv>
+
+    <!-- SNOW_BIOME -->
+    <csv xpath="/entitygroups/entitygroup[@name='ZombiesSnow']/text()" delim="\n" op="remove">zombieChuck</csv>
+    <csv xpath="/entitygroups/entitygroup[@name='ZombiesSnowNight']/text()" delim="\n" op="remove">zombieChuck*</csv>
+    <csv xpath="/entitygroups/entitygroup[@name='ZombiesSnow']/text()" delim="\n" op="add">
+		zombieChuck, .025
+    </csv>
+    <csv xpath="/entitygroups/entitygroup[@name='ZombiesSnowNight']/text()" delim="\n" op="add">
+		zombieChuck, .025
+		zombieChuckFeral, .0025
+    </csv>
+
+</configs>
