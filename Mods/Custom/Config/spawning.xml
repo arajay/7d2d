@@ -1,12 +1,3 @@
 <configs>
-	<!-- block all ambient zombie spawning -->
-	<set xpath="/spawning/biome/spawn[contains(@entitygroup,'Zombies')]/@maxcount">0</set>
-
-	<!-- nerf animals -->
-	<set xpath="/spawning/biome/spawn[contains(@entitygroup,'EnemyAnimals')]/@respawndelay">7</set>
-
-	<!-- remove screamers -->
-	<set xpath="/spawning/entityspawner[@name='Scouts']/day/property[@name='TotalAlive']/@value">0</set>
-	<set xpath="/spawning/entityspawner[@name='Scouts']/day/property[@name='TotalPerWave']/@value">0</set>
-
+	<!-- new spawning rules go here -->
 </configs>

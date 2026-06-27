@@ -1,25 +1,29 @@
 <configs>
 
-    <!-- DESERT_BIOME -->
-    <csv xpath="/entitygroups/entitygroup[@name='ZombiesDesert']/text()" delim="\n" op="remove">zombieRancher</csv>
-    <csv xpath="/entitygroups/entitygroup[@name='ZombiesDesertNight']/text()" delim="\n" op="remove">zombieRancher*</csv>
-    <csv xpath="/entitygroups/entitygroup[@name='ZombiesDesert']/text()" delim="\n" op="add">
-		zombieRancher, .025
-    </csv>
-    <csv xpath="/entitygroups/entitygroup[@name='ZombiesDesertNight']/text()" delim="\n" op="add">
-		zombieRancher, .025
-		zombieRancherFeral, .0025
-    </csv>
+  <!-- DESERT_BIOME -->
+  <set xpath="/entitygroups/entitygroup[@name='EnemyVultureDesert']/e[@n='animalZombieVulture']/@p">5</set>
+  <remove xpath="/entitygroups/entitygroup[@name='ZombiesDesert']/e[@n='zombieRancher']" />
+  <remove xpath="/entitygroups/entitygroup[@name='ZombiesDesertNight']/e[@n='zombieRancher']" />
+  <remove xpath="/entitygroups/entitygroup[@name='ZombiesDesertNight']/e[@n='zombieRancherFeral']" />
 
-    <!-- SNOW_BIOME -->
-    <csv xpath="/entitygroups/entitygroup[@name='ZombiesSnow']/text()" delim="\n" op="remove">zombieChuck</csv>
-    <csv xpath="/entitygroups/entitygroup[@name='ZombiesSnowNight']/text()" delim="\n" op="remove">zombieChuck*</csv>
-    <csv xpath="/entitygroups/entitygroup[@name='ZombiesSnow']/text()" delim="\n" op="add">
-		zombieChuck, .025
-    </csv>
-    <csv xpath="/entitygroups/entitygroup[@name='ZombiesSnowNight']/text()" delim="\n" op="add">
-		zombieChuck, .025
-		zombieChuckFeral, .0025
-    </csv>
+  <append xpath="/entitygroups/entitygroup[@name='ZombiesDesert']">
+    <e n="zombieRancher" p="0.025" />
+  </append>
+  <append xpath="/entitygroups/entitygroup[@name='ZombiesDesertNight']">
+    <e n="zombieRancher" p="0.025" />
+    <e n="zombieRancherFeral" p="0.0025" />
+  </append>
 
+  <!-- SNOW_BIOME -->
+  <remove xpath="/entitygroups/entitygroup[@name='ZombiesSnow']/e[@n    ='zombieChuck']" />
+  <remove xpath="/entitygroups/entitygroup[@name='ZombiesSnowNight']/e[@n='zombieChuck']" />
+  <remove xpath="/entitygroups/entitygroup[@name='ZombiesSnowNight']/e[@n='zombieChuckFeral']" />
+
+  <append xpath="/entitygroups/entitygroup[@name='ZombiesSnow']">
+    <e n="zombieChuck" p="0.025" />
+  </append>
+  <append xpath="/entitygroups/entitygroup[@name='ZombiesSnowNight']">
+    <e n="zombieChuck" p="0.025" />
+    <e n="zombieChuckFeral" p="0.0025" />
+  </append>
 </configs>

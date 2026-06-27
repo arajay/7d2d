@@ -1,4 +1,8 @@
 <configs>
+	<!-- use flaming mod with knives -->
+	<append xpath="/items/item[@name='meleeWpnBladeT0BoneKnife']/property[@name='Tags']/@value">,longShaft</append>
+	<append xpath="/items/item[@name='meleeWpnBladeT1HuntingKnife']/property[@name='Tags']/@value">,longShaft</append>
+
 	<!-- reduce zombie melee range  -->
 	<set xpath="/items/item[@name='meleeHandMaster']/property[@class='Action0']/property[@name='Range']/@value">1.4</set>	<!-- default = 1.65 -->
 	<set xpath="/items/item[@name='meleeHandZombieCop']/property[@class='Action0']/property[@name='Range']/@value">1.4</set>	<!-- default = 1.75 -->
@@ -52,7 +56,6 @@
 	</append>
 
 	<!-- Increases damage for arrows and bolts to make archery more effective -->
-
 	<!-- Stone Arrow: Increase EntityDamage from 35 to 49 -->
 	<set xpath="/items/item[@name='ammoArrowStone']/effect_group[@name='ammoArrowStone']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">49</set>
 
@@ -91,5 +94,4 @@
 
 	<!-- Compound Crossbow: Increase EntityDamage base_add from 25 to 50 -->
 	<set xpath="/items/item[@name='gunBowT3CompoundCrossbow']/effect_group[@name='gunBowT3CompoundCrossbow']/passive_effect[@name='EntityDamage' and @operation='base_add']/@value">50</set>
-
 </configs>

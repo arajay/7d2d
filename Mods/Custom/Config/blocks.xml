@@ -6,20 +6,33 @@
 
     <!-- make broken vending machines lootable instead of dropping loot when destroyed -->
     <append xpath="/blocks/block[@name='cntVendingMachine2Broken']">
-        <property name="Class" value="Loot"/>
-        <property name="LootList" value="vendingMachineDrinkBroken"/>
+        <property name="Class" value="CompositeTileEntity" />
+        <property class="CompositeFeatures">
+            <property class="TEFeatureStorage">
+                <property name="LootList" value="vendingMachineDrinkBroken"/>
+            </property>
+        </property>
         <dropextendsoff/>
     </append>
 
     <append xpath="/blocks/block[@name='cntVendingMachineSnacksFullBroken']">
-        <property name="Class" value="Loot"/>
-        <property name="LootList" value="vendingMachineFoodBroken"/>
+        <property name="Class" value="CompositeTileEntity" />
+        <property class="CompositeFeatures">
+            <property class="TEFeatureStorage">
+                <property name="LootList" value="vendingMachineFoodBroken"/>
+            </property>
+        </property>
+
         <dropextendsoff/>
     </append>
 
     <append xpath="/blocks/block[@name='cntVendingMachineSnacksEmptyBroken']">
-        <property name="Class" value="Loot"/>
-        <property name="LootList" value="vendingMachineFoodBroken"/>
+        <property name="Class" value="CompositeTileEntity" />
+        <property class="CompositeFeatures">
+            <property class="TEFeatureStorage">
+                <property name="LootList" value="vendingMachineFoodBroken"/>
+            </property>
+        </property>
         <dropextendsoff/>
     </append>
 </blocks>	
