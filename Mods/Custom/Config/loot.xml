@@ -1,5 +1,5 @@
 <configs>
-	<!-- do not destroy most containers after searching -->
+	<!-- do not destroy some containers after searching -->
 	<set xpath="/lootcontainers/lootcontainer/@destroy_on_close">false</set>
 	<set xpath="/lootcontainers/lootcontainer[@name='playerBackpack']/@destroy_on_close">empty</set>
 	<set xpath="/lootcontainers/lootcontainer[@name='junk']/@destroy_on_close">empty</set>
