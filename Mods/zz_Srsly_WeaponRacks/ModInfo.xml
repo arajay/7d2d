@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<Name value="zz_Srsly_WeaponRacks"/>
+	<DisplayName value="Srsly's Weapon Racks"/>
+	<Description value="Craftable color weapon racks for displaying stored weapons and tools. Includes vanilla support, modded weapon pack support, dye preservation, advanced rotation, and an expanded rack color menu."/>
+	<Author value="Srsly"/>
+	<Version value="3.0.0"/>
+	<Website value=""/>
+	<SkipWithAntiCheat value="true"/>
+</xml>

@@ -1,0 +1,39 @@
+<LittleRedSonja>
+
+	<append xpath="/lootcontainers">
+		
+		<lootcontainer name="secretStorageIronSonjaLoot" count="0" size="8,10" sound_open="UseActions/crate_iron_open" sound_close="UseActions/crate_iron_close" loot_quality_template="qualBaseTemplate">
+			<item name="cobweb" count="0"/>
+		</lootcontainer>
+		
+		<lootcontainer name="secureStorageShelvesSonjaLoot" count="0" size="8,10" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
+			<item name="cobweb" count="0"/>
+		</lootcontainer>
+		
+		<lootcontainer name="secureStorageToolBoxSonjaLoot" count="0" size="8,10" sound_open="UseActions/open_toolchest" sound_close="UseActions/close_toolchest" loot_quality_template="qualBaseTemplate">
+			<item name="cobweb" count="0"/>
+		</lootcontainer>
+		
+		<lootcontainer name="secureStorageCoolerSonjaLoot" count="0" size="8,10" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" loot_quality_template="qualBaseTemplate">
+			<item name="cobweb" count="0"/>
+		</lootcontainer>
+		
+		<lootcontainer name="secureStorageBagSonjaLoot" count="0" size="8,10" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate">
+			<item name="cobweb" count="0"/>
+		</lootcontainer>
+		
+		<lootcontainer name="secureStorageClothesRackSonjaLoot" count="0" size="8,10" sound_open="open_clothes_rack" sound_close="close_clothes_rack" loot_quality_template="qualBaseTemplate">
+			<item name="cobweb" count="0"/>
+		</lootcontainer>
+		
+		<lootcontainer name="secureStorageDrawerSonjaLoot" count="0" size="8,10" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="qualBaseTemplate">
+			<item name="cobweb" count="0"/>
+		</lootcontainer>
+		
+		<lootcontainer name="secureStorageFridgeSonjaLoot" count="0" size="8,10" sound_open="UseActions/fridgeretro_open" sound_close="UseActions/fridgeretro_close" loot_quality_template="qualBaseTemplate">
+			<item name="cobweb" count="0"/>
+		</lootcontainer>
+		
+	</append>
+
+</LittleRedSonja>

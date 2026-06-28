@@ -5,7 +5,7 @@
 
 	<!-- reduce zombie melee range  -->
 	<set xpath="/items/item[@name='meleeHandMaster']/property[@class='Action0']/property[@name='Range']/@value">1.4</set>	<!-- default = 1.65 -->
-	<set xpath="/items/item[@name='meleeHandZombieCop']/property[@class='Action0']/property[@name='Range']/@value">1.4</set>	<!-- default = 1.75 -->
+	<set xpath="/items/item[@name='meleeHandZombieCop']/property[@class='Action0']/property[@name='Range']/@value">1.5</set>	<!-- default = 1.75 -->
 
 	<!-- add slashing damage type to axes -->
 	<append xpath="/items/item[contains(@name,'meleeToolAxe')]/property[@class='Action0']">

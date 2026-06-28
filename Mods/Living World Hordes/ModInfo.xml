@@ -1,0 +1,7 @@
+<xml>
+    <Name value="LivingWorldHordes" />
+    <DisplayName value="Living World Hordes" />
+    <Description value="Adds increased ambient roaming zombie pressure by biome." />
+    <Author value="John" />
+    <Version value="0.1.0" />
+</xml>

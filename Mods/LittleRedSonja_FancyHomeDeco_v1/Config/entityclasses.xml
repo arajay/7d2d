@@ -1,0 +1,7 @@
+<LittleRedSonja>
+
+	<append xpath="/entity_classes/entity_class[@name='animalBear']">
+		<drop event="Harvest" name="rugBear" tag="butcherHarvest" prob=".3" count="1"/>
+	</append>
+
+</LittleRedSonja>

@@ -15,7 +15,7 @@
   </append>
 
   <!-- SNOW_BIOME -->
-  <remove xpath="/entitygroups/entitygroup[@name='ZombiesSnow']/e[@n    ='zombieChuck']" />
+  <remove xpath="/entitygroups/entitygroup[@name='ZombiesSnow']/e[@n='zombieChuck']" />
   <remove xpath="/entitygroups/entitygroup[@name='ZombiesSnowNight']/e[@n='zombieChuck']" />
   <remove xpath="/entitygroups/entitygroup[@name='ZombiesSnowNight']/e[@n='zombieChuckFeral']" />
 

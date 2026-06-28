@@ -1,7 +1,0 @@
-<xml>
-    <Name value="PathSmoothing" />
-    <DisplayName value="Path Smoothing" />
-    <Description value="Smooth zombie movement toward visible targets." />
-    <Author value="John" />
-    <Version value="1.0.0" />
-</xml>

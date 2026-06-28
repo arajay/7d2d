@@ -1,0 +1,22 @@
+<LittleRedSonja>
+
+	<append xpath="/items">	
+		
+		<item name="lightsLampsSonja">
+				<property name="CreativeMode" value="None"/>
+				<property name="CustomIcon" value="deskLampLight"/>
+				<property name="CustomIconTint" value="e599e4"/>
+				<property name="DescriptionKey" value="lightsLampsSonjaDesc"/>
+				<property name="ItemTypeIcon" value="all_blocks"/>
+				<property name="HoldType" value="45"/>
+				<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+				<property name="Material" value="Mcloth"/>
+				<property name="Stacknumber" value="1"/>
+				<property name="EconomicValue" value="1"/>
+				<property name="Group" value="Resources"/>
+				<property name="UnlockedBy" value="craftingElectrician"/>
+			</item>
+			
+	</append>
+
+</LittleRedSonja>

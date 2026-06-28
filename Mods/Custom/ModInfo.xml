@@ -3,6 +3,6 @@
 	<Name value="Custom" />
 	<DisplayName value="RJCustomMod" />
 	<Version value="1.0" />
-	<Description value="Disables ambient biome zombie spawns and adjust animal spawns." />
+	<Description value="Collection of minor xml hacks" />
 	<Author value="Arajay" />
 </xml>

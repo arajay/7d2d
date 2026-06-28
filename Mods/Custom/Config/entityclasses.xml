@@ -1,6 +1,4 @@
 <entities>
-	<!-- increase zombie loot drops -->
-	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[contains(@name, 'LootDropProb')]/@value">0.05</set>
 	<!-- zombie nerfs -->
 	<!-- no climbing -->
 	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='CanClimbLadders']/@value">
@@ -22,17 +20,6 @@
 	</set>
 	<set xpath="/entity_classes/entity_class[@name='animalStag']/property[@name='TimeStayAfterDeath']/@value">
 		600
-	</set>
-	<!-- boom headshot -->
-	<append xpath="/entity_classes/entity_class[@name='playerMale']/effect_group">
-		<passive_effect name="DamageModifier" operation="perc_subtract" value="0.99" tags="chest,legs,arms" />
-		<passive_effect name="DamageModifier" operation="perc_add" value="0.7" tags="head" />
-	</append>
-	<set xpath="/entity_classes/entity_class/property[@name='DismemberMultiplierHead']/@value">
-		1.5
-	</set>
-	<set xpath="/entity_classes/entity_class/property[@name='HeadExplosionDamageMultiplier']/@value">
-		1.5
 	</set>
 	<!-- Remove XP gained from selling items to traders -->
 	<append xpath="/entity_classes/entity_class[@name='playerMale']">
