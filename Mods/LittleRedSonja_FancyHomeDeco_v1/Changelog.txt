@@ -1,0 +1,184 @@
+Fancy Home Deco 7D2D -- 7DTD mod -- by LittleRedSonja
+
+
+This mod is compatible with V1, V2, V3 and later versions of the game. 
+
+
+Changelog:
+
+1.0.0 - Makes the craftable "end table lamp" powerable and a light source, power required 5W.
+
+1.0.1 - Makes the reptile terrarium, the piano, gym equipment and medical equipment pickable.
+      - Makes the preview pictures smaller, for a smaller download.
+      - Updated ModInfo file.
+      - Added this changelog file :)
+
+1.0.2 - Updated for 1.0
+
+1.0.3 - Fixed a bug that prevented some of the features included in the mod from working properly. Sorry folks, It will be working as expected now. If you downloaded the mod before this version please delete and install the new              version.       
+      - Added some more decorations: Movie posters, a microphone, the new "staff only" sign, pool table and a radio. 
+      - The mod should work both server side for multiplayer and player side for solo play. That means that if the mod is installed in the server you are playing in you do not need to install the mod yourself. If you play solo, then         install the mod as usual.
+ 
+1.0.4 - Added x-ray lamps as salvageable (you need a wrench, ratchet or impact driver) AND as a new craftable item in the workbench (recipe unlocks with Electrician Tier 1: Basic Electricity). You get a variant block helper so you           can choose to place the empty variant or the full variant back home in your home clinic. You can turn them on and off. You can pick them up again after placing them if you hold "E".
+      - Added the same function to my endtable lamps: You can turn them on and off, and pick them up again after being placed. In existing saves with already placed endtables you need to pick up the endtable and place it again for           the switch on/off function to work.
+      - Added the Exit sign lights as salvageable (you need a wrench, ratchet or impact driver) AND as a new craftable item in the workbench (recipe unlocks with Electrician Tier 1: Basic Electricity). You get a variant block helper         so you can choose what variant you want to place. You can turn them on and off. You can pick them up again after placing them if you hold "E".
+
+1.0.5 - Added a "Road Closed" sign. You can use a wrench, ratchet or impact driver to pick up the sign. It is powerable, with nice yellow lights.  
+      - Added the standing "no Parking" sign as pickupable so people stop parking their motorcycles on your lawn.  
+      - Fixed the "No parking Tow Away" sign, so when you pick it up you actually get that sign and not a random placeholder. 
+      - When you pick up a mannequin now you will get a variant helper that allows you to choose between 5 different models. That means that now you can actually place the Military mannequin now if you want, which was not possible           before.
+      - Added a wheelchair as a pickupable item. You will get a variant helper so you can choose between several different colors when you place it back in your base.
+      - You can now decorate your own shooting range with the new pickupable target posters. You will get a variant helper so you can choose between 3 different models. You can also shoot at them as much as you want, even with a             rocket launcher, without destroying them. If you want to remove them simply pick them up again or hit them with any melee weapon or tool.
+      - Added the elusive "windowStoreWedge60BulletproofRight" as a new shape. This shape is missing in the awesome "Beautiful bases" by GNS, so you can use it until He updates his fantastic mod. 
+
+1.0.6 - Edits to improve mod compatibility with other mods that edit lights in someway, and with any other mod in general. This should solve an issue that some players using other mods were experiencing with errors and stuttering            when interacting with x-ray lamps, exit signs, road block signs and end table lamps inside POI. 
+      - Remade all the electric items from scratch as new custom blocks to improve mod compatibility and prevent similar problems in the future. That means that, since they are new items, you need to pick up or salvage the old ones         and place a new one for the update to take place. It only affects end table lamps, exit signs, road block signs and x-ray lamps. You do not need to do anything else with the other items included in the mod. 
+      - Removed one line of code that was redundant. This did not affect how the mod works, it is mostly for peace of mind on my end. Some of you might have seen a yellow warning in the console about this, now it should be gone. 
+      - Added a new lamp table in 8 different colors. It is craftable in workbench as a variant helper so you can choose what color you want. Like with all my other lights it is pickupable (hold "E", like you would do to pick a              workstation) and of course powerable, and you can turn it on and off by pressing "E". It is unlocked at level 25 Electrician (Basic electricity). 
+      - Added a new Zombie decoration. It is craftable in the workstation, and of course pickupable. Say "Hello!" to Steve the Zombie :) .
+      - From now on all the new items included in the mod will be custom items so no other mods would cause any incompatibility problems.
+
+1.0.7 - Finally added a Localization file so new items will now have nice proper names :).  
+      - Added a new LED panel light, white and black border variants, normal and offset variants so you can place things on top of them. They have structural stability so you can build with them if you want. Craftable in workbench            as a Variant Helper, unlocks at Electrician level 25 (Basic electricity).
+      - Added a Pop-N-Pills light sign, both big and small variants. You can pick it up in the world using a salvage tool (wrench, ratchet, impact driver) and you can also craft them in workbench as a Variant Helper. Unlocks at               Electrician level 25 (Basic electricity). Powerable and you can pick them up inside your claim area by holding "E" or using a salvage tool. 
+      - Added the candie & food posters as a craftable Variant Helper. Craftable in workbench. Some players enjoy looking for the different posters in the world to complete their collection, other players prefer to be able to craft           any of them without going out exploring, or may be frustrated because they cannot find a certain elusive poster (I am looking at you Goblin-O poster XD). Now you can choose.	 
+      - Added the Cozy Electric Stove, for a warm and cozy home. It has fake burning wood inside but it is electric. It is powerable, you can turn it on and off, you can pick it up inside your claim area by holding "E". You can pick          it up in the world using a salvage tool (wrench, ratchet, impact driver). If you cannot find it in the world don't worry, you can also craft it in the workbench.
+      - You can now pick up bar stools in the world with a salvage tool (wrench, ratchet, impact driver) and get a variant helper. Back home you can choose what color you want to place. You can pick them up again using a salvage              tool. You can also craft them in the workbench too. 
+      - Transformed the Screen Curtain Divider into a Variant Helper with 4 different colors, for even more fashionable home clinics. When you pick up a screen curtain divider you will get now the Variant Helper instead for a simple          curtain item. If you have already placed screen curtains in your base you will get the new Variant Helper if you pick them up again. 
+      - Added the "Sectional Leather chair" and the "Sectional Plaid chair" as new alternative block shapes inside the "Sectional Leather couch Variant Helper" and the "Sectional Plaid couch Variant Helper". Those 2 were not craftable       before and, while you can arrange a similar chair using 3 other shapes that makes it 3 blocks wide compared with 1 block. 
+      - Added 2 Classic Benches as a Variant Helper. You can pick up them using a Salvage tool (wrench, ratchet, impact driver) and get a Variant Helper, or craft in workbench. I think these ones goes really well together with the           Classic Forged iron Street lamp for a nice exterior sitting area or a cozy garden :) . 
+      - Added a classic forged iron street lamp, powerable, craftable in the workbench, pickupable inside claim area by holding "E", you can turn it on and off by pressing "E". An elegant solution to illuminate your backyard or secret       garden. This one is now my absolute favorite exterior light in the game, I hope you like it too! :). 
+
+1.0.8 - It looks like a common picture but...wait, what is this!? A Secret Storage! Keep thieves away from your goodies with this all-in-one lockable secure storage behind your favorite picture. Craftable in workbench. Decorative and         useful at the same time. This update took a lot of work but I am happy with the result and I hope you like it too.  
+      - Added some more nice decorative secure storage (but not so secret :)), because boxes are boring XD: Office shelf in several colors and variants, Gas Pump and Propane Tank in several colors to store all your fuel, resources, or       whatever you want. All of them craftable in the workbench and lockable, with big storage capacity. 
+      - Added decorative vehicles, each of them in 9 different colors: Bicycle that you can hang on the wall, motorcicle, 4x4 and gyrocopter. They are new decorative blocks, not entities, so they do not cause problems in servers or get       deleted on restarts. I think they look really cool anywhere, but specially to decorate a mechanic workshop or garage. 
+      - Added a few more decorative items as pickupable, to decorate your garage or your own automotive repair shop: Tires as a Variant Helper so you can choose what variant to place, and a car motor. Yes, perhaps I have watched too       much "Sons of Anarchy" lately, and this is what happens :) . 
+      - Added a craftable Bunk Bed as a Variant Helper, with 2 different alternatives. Cheaper than the king size bed, and better suited for smaller rooms or barracks. It works as a bedroll.  
+      - Added some of the new items and blocks into "Decoration" and/or "Building" category to make it easier to find the recipe.
+      - Added more entries in the localization file.  
+
+1.0.9 - Doors, doors and EVEN MORE doors. A nice door makes all the difference when building a nice base, so here you have a ton of different doors, including sliding doors and bulletproof glass doors for maximum security, as craftable Variant Helpers and in many different colors and shapes to fit any style you are looking for. Say "goodbye" to the ugly vanilla doors. 
+      - You can now craft curtains to decorate your windows, in many different shapes and colors.
+      - Added some really cute Umbrellas as pickupable and craftable in workbench, both open and closed variants, in many different colors. Prevent sunburn with these cozy parasols.
+      - Movie time! You can now pick up the projectors and the video camera in POI, and also craft them in your workbench as a variant helper. Become the new John Romero and project your creations in your own home theater, or equip your operations room and plan your next POI raid, Briefing time!
+      - You want Dolby Surround sound in addition to image? Now the bookshelf Speakers are pickupable. Grab them and decorate your home theater!
+      - Grab a cold one! Added beverage coolers as secure lockable storage, with big storage capacity, both standard and under the counter, full and empty variants, to keep safe all your favorite foods and drinks. Enjoy a sweet snack while you watch a movie in your home theater. 
+      - Ugly chairs are for plebs. You should instead enjoy these new craftable theater seats in different colors.
+      - Added a nice brass trophy as pickupable and craftable, so you can tell your friends that you won it for killing lots of zombies or making a great movie. It is not an Oscar, but it is the closest you will find in the apocalypse.
+      - After movie, a good dinner. Craft comfy colorful restaurant booths and matching tables, many shapes and different colors as a variant helper. 
+      - Sad boring kitchen? Add some nice cozy light with the Hood Range variants, a powerable light in different colors. Standard and off-set variants. I do not know you, but I LOVE soft relaxing light in kitchens.
+      - More stuff for your home clinic, probably needed if you eat too much popcorn in your new home theater: Added 2 medicine cabinets variants as secure storage, craftable in workbench and with lots of room to storage your medicin supplies.
+      - Added more decorative vehicles for your garage, 3 different models in many different colors. Craftable as a variant helper in workbench.
+      - Added plastic traffic barriers as pickupable (you will get a variant helper block) and craftable in different colors.
+      - Added a strong concrete barrier as craftable, for more nice variety in base defence. 
+      - Picking up the "Pool Table" will now give you a Variant Helper, so you can place back home and choose what color you want (right now green and blue variants, more colors coming in future updates). It is also craftable now.
+      - Added support to all my secure storage to be pickupable with my other mod "Grab Your Storage". That way you can grab your secure storage in one go without spending time, stamina and resorces to destroy and rebuild.
+      - Most items that before required using a salvage tool to grab them can now be picked up right away, such as bar stools, park benches, some lights and signs. When appropriate this will give you a variant helper so you can choose what variant you want to place back in your base. This change is intended to make the mod easier to use and more accessible for everybody, so it is easier to see what can be picked up and what not without having to read all the documentation in the mod. I hope you like this change.
+      - Having a high level in salvaging operations no longer gives you 2 items when salvaging some of my decorative stuff. I guess it did not make much sense, did it? :)
+      - You can now repair your "Steve the Zombie" if he suffers damage, and I have increased his HP so it will be more difficult to "kill him" by accident. Say "Thank you", Steve! :)
+      - You can now repair your Park Benches, your Rolling Tool Box secure storage and your Tool Box secure storage. 
+      - Adjusted the selling price of the gurney beds and hospital beds, so they are actually used to decorate your base instead for being sold to traders for quite a lot of money. I hope I am not breaking your "easy money scheme" here folks, but it was a bit too much :) 
+      - The "NO POWER" Add-On will also remove the required skill level in electrician to craft some of the lights. Again, an optional feature intended to make the mod enjoyable for everybody :).
+
+1.1.0 - Fixed Gas Pump secure storage not requiring forged steel to craft. It now requires both forged iron and steel iron, like the other equivalent secure storage variants. 
+      - Fixed the radio not being pickupable outside claim area. You can pick it up again now. 
+      - Improved Office shelf placement to sit better as a 2 wide storage. 
+      - Added an alternative version to the "cozy electric stove" that works as a functional cooking place, like the campfire. Now you get a variant when you craft it or salvage in the world, and you can choose to place the decorative powerable light version OR the functional stove version. 
+      - As I promised one month ago, I have been working on "clean nice" versions for all my doors, and after lots of testing and delays because of me being distracted with the plushies mod (but it is so cute!) I finally remade all my custom doors from scratch. Now you will get clean doors at 100% HP. Increased the HP points of the doors to make them equivalent to the vanilla "old wood door". This way you do not need to damage it and drop the HP down to 50-70% to get the nice clean look. But do not worry, you can Upgrade them to get the "barricade" look again and gain 25% more HP, using any repair tool. Like it should be in real life, if you actually barricade a door it should be stronger. When you are hovering to place the door it still shows the "barricaded" look, I do not think it is possible to change that without me editing the vanila block in Unity, and that would make the mod server + client side (and I want Fancy Home Deco to remain a server side mod). There are several ways to do this, but I think I like this method the most of all the ones I have tried, since it allows you to go back to the barricaded look if you want and to actually reinforce the door and get higher HP when doing so. Also, VANILLA DOORS ARE UNTOUCHED, so it will not affect how POI loos or works, and will not change game balance. Let me know what you think in the comments. 
+      - Super Villain stuff: The "Evil Genius 3000" super villain doors. Single and double "normal" variants, slightly stronger than the steel vault doors but more expensive to craft, AND a powerable version of both that you can link to motion sensors, press plates and all that stuff, the same as the powered vaults, and it is unlocked by electrician skill (same as other powered doors). I think these ones will look fantastic in scy-fi style bases, James Bond Volcano base style, or anywhere else 🥰 
+      - Added all the other variants of the metal commercial door, inside the "Metal commercial door variants", in many different colors and models for you to choose from.
+      - Added the "Trailer doors" and a craftable variant helper, in many different colors. 
+      - Added the "Control panels" as a craftable variant helper, in many different colors and tons of different models, for you to decorate. I think they will look fabulous in any "super villain volcano base" or sci-fy setting, but of course you can use them to decorate or any other style you want.
+      - Added Decorative vegetation as a variant helper, craftable, including several bushes, flowers and a small tree.
+      - Added a "Modular fireplace kit" as variant helper containing 2 parts: A "No Heat" burning barrel that you can place 1 block below the intended level for the fireplace, and firewood block that lets flames come out and that you place right on top of the burning barrel.You can see the result in the included picture, I think it looks really cozy. 
+      - Pickupable horseshoes (you get a variant helper), and pickupable decorative cow skulls, that can look very cool for example in a "old west style" base. 
+      - electric Stove Functional, variant helper
+      - The Big Street Light, as powerable light, craftable in workbench, to iluminate even the darkest corners.
+      - Added 3 different traffic lights as craftable powered lights. 
+      - Added recessed lights as craftable, several variants for more flexibility when placing them.  
+      - Added "Offset" variants of the table lamps, in many different colors. "Offset" variants are easier to be placed on half blocks, for example nightstands, compared with the "centered" variants. All the variants and colors are inside the same craftable Variant Helper block. 
+      - Several bags as small secure storage, included in a variant helper, in many different colors. 
+      - Several clothes racks, wall racks and clothes shelfes as secure storage, included in a variant helper. Both the bags and the clothes racks are compatible with my "Grab your storage" mod.
+      - A lot of the vanilla traffic signs are pickupable now. 
+      - Added modular tent kit, with 200 different pieces in many different shapes and colors including "cammo", inside a craftable variant helper, for you to combine however you want and create your own custum tents. 
+      - Add a few more missing variants to vanilla variant helpers and 2 single hanging chains to GNS hoister variant (if you use that mod).
+      - Improved the groupping for lights and storage, to make them easier to find. 
+      - Changed the color of many icons to a nice purple, hopefully easier to see for color blind people and in low gamma settings. 
+      - More things added in the localization.txt 
+
+1.2.0 - Adds compatibility with "Craft From Containers" mod for all my custom storage. IMPORTANT WARNING IF YOU UPDATE IN AN EXISTING SAVE FROM A PREVIOUS VERSION OF THE MOD: Please empty all your custom storage before updating, otherwise you will loose its contents. This is because I had to rework the containers for compatibility with "Crafting from Containers". After you update you have to REPLACE THE CONTAINER WITH A NEW ONE OR PICK IT BACK INTO YOUR INVENTORY for the compatibility to work. To pick up the container you can use my "grab your storage" mod, or simply destroy the container and place a new one. 
+      - Adds the requested "Bathroom signs" and "Bulletin Board" as pickupable. You will get a variant helper so you can choose what variants to place back home.
+      - Fix: Colored variants of the "Exterior House Door" can no longer be upgraded more than one time. 
+
+1.2.1 - Fixed a problem where the localized texts were not working in some servers, for multiplayer. If you were playing on a server and you were seeing ugly code names for items and blocks instead of the nice names and descriptions, this update is relevant for you.
+      - Adjusted the selling price of some items to better fit in the "Shopping Time!" mod. 
+
+1.3.0 - Added new lights and lamps, desk lamps, standing lamps, ceiling lamps, wall lamps and a powerable chandelier. All craftable, and some of them pickupable too in the world.
+      - Neon lights can be picked up by salvaging with any salvage tool, and used as powered lights. Can also be crafted in the workbench
+      - Hydroponics can be picked up by salvaging with any salvage tool, used as powered lights, and repaired.
+      - Added craftable rope variants that you can use as a ladder.
+      - Added more posters as pickupable.
+      - Added more ad & sale signs as pickupable.
+      - Added a lot more new secure storage alternatives, in many different color variantes, all of them compatible with most versions of "craft from containers". Armor racks, gun racks, drawers, foot lockers, ammunition boxes, books and book piles, vending machines. 
+      - Added miscellanea wood storage variants, paintable, lockable and with big storage capacity (bookshelfs, cupboards, cabinets and nightstand).  
+      - Added rug bear and big bear statue as pickupable and they can be repaired. You have also a small chance to get a rug bear if you harvest a bear with a butcher tool.
+      - Custom tents, Restroom signs and Bulleting Boards can now be repaired.
+      - Reduced crafting times a little.
+      - Greatly improved the localization file.
+      - Improved progression.xml, to make it cleaner, more consistent and improve mod compatibility. Remember that you can unlock all the lights from the start if you want by installing the "NO POWER" Add-On.
+      - Fixed getting double items when salvaging some of the deco items whith high level Salvage Operations. Thank you SylveonoevlyS for reporting it.
+      - Improved compatibility when using together with "FNS loot all things". Now you can get the piano and the IV Stand decos if you destroy those blocks. 
+
+1.3.1 - Small fix for neon lights recipe when using together with GNS beautiful bases.
+
+1.3.2 - Added missing icon in recipe list for the Miscellaneous Wood Safe Storage.
+      - Makes the Hydroponics Variable Helper craftable, so now you can loot it from POI and also craft it. 
+      - Adds Refrigerators as a safe lockable storage with BIG capacity. Craftable as a variant helper, so you can choose between different models. 
+      - Adds compatibility with Ramos UI.
+      - Adds compatibility woth the next versions of SMX.
+
+2.0.0 - Updates to work with version V2 of the game. Compatibility with v 1.0 to 1.4 is maintained, so you can keep using the mod in both V1 and V2. 
+      - Adds all the new variants and colors of the bunk beds and madrasses as craftable in a Variant Helper. They all work as a sleeping bag. 
+      - Adds the new Pet Posters ad pickupable and craftable in a Variant Helper.
+      - Adds all the variants and colors of the Hanging Corpses as craftable in a Variant Helper. 
+      - Small improvements in the xml.
+
+2.0.1 - Steve and a couple of friends got lost during the update to 2.0, probably when devouring some unaware survivor. But fear no more, He is back again :). 
+      - Fixed a couple blocks that showed a blue box because missing asset. 
+      - Corrected a few typos in Localization.
+      - Added Localization texts for some of the decorative vehicles. 
+      - Added french Translation (you can find it in the OPTIONAL FILES) section in Nexus mods.
+
+2.0.2 - Fixed Fireplace kit missing fire particle in V2.
+      - Added more rotations to the fluorescent lights variant helper, so you can place then in different angles and positions. 
+
+2.1.0 - Adds Roll Up Security Gates as craftable in the workbench. 
+      - Adds a new variant helper containing improved versions of the metal file cabinets and the metal lockers, making them safe lockable storage with much bigger storage capacity.
+      - Adds some piles of stuff (food, medicines, ammunition and chemistry) as new craftable safe storage options with large capacity. Some other piles such as books were already included in other variant helpers. 
+
+2.1.1 - Fixes offset for the lockers storage.
+      - Adds new metal shelves as safe storage. 
+
+2.2.0 - Updates the mod for game version 3.0. It remains backwards compatible down to game version 1.0. 
+
+2.2.1 - Fixes a mistake in the conditionals used to add cross-version compatibility causing errors in game versions 2.0 - 2.6 after the previous 2.2.0 update.
+ 
+
+I hope you enjoy the mod 💜. Let me know too if you have suggestions or find bugs.  🥰
+
+
+You can find all my mods here: 
+
+Nexus mods: https://next.nexusmods.com/profile/LittleRedSonja/mods
+https://community.thefunpimps.com/members/littleredsonja.112788/#about
+7daystodiemods.com: https://7daystodiemods.com/?s=littleredsonja
+
+
+I also have a channel in Guppy Modding Discord, you can always find me there and ask questions, leave suggestions or report problems :):
+LittleRedSonja Channel in Guppy Modding Discord: https://discord.gg/gTZzQ4bC58
+
+I have a Youtube channel where I post some short videos about my mods: https://www.youtube.com/@LittleRedSonja
+
+
+You can also contact me in Discord if you have questions or ideas: @LittleRedSonja
+      	   

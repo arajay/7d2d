@@ -37,7 +37,7 @@
         </recipe>
     </append>
 
-    <!-- change charred and grilled meat recipes to use 2 raw meat instead of 5 -->
-    <set xpath="/recipes/recipe[@name='foodCharredMeat']/ingredient[@name='foodRawMeat']/@count">2</set>
-    <set xpath="/recipes/recipe[@name='foodGrilledMeat']/ingredient[@name='foodRawMeat']/@count">2</set>
+    <!-- change charred meat recipes to use 1 raw meat instead of 5 -->
+    <set xpath="/recipes/recipe[@name='foodCharredMeat']/ingredient[@name='foodRawMeat']/@count">1</set>
+
 </recipes>

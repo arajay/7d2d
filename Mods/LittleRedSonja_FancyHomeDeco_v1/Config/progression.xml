@@ -1,0 +1,17 @@
+<LittleRedSonja>	
+	
+	<csv xpath="//crafting_skill[@name='craftingElectrician']/display_entry/unlock_entry/@item" op="Remove">ceilingLight07_player</csv>
+	<csv xpath="//crafting_skill[@name='craftingElectrician']/effect_group/passive_effect[@level='25,100']/@tags" op="Remove">ceilingLight07_player</csv>
+	
+	
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/display_entry[@unlock_level='25']">
+		<unlock_entry item="lightsLampsSonja" unlock_tier="1" recipes="endtableLampSonja,tableLampLightSonjaVariantHelper,xrayLightVariantHelper,signExitLightVariantHelper,lightLEDSonjaVariantHelper,popNpillsLightsignSonjaVariantHelper,streetLightElegantClassicSonja,projectorSonjaVariantHelper,hoodRangeLightSonjaVariableHelper,streetLightBigSonja,signTrafficLightSonjaVariantHelper,recessedLightSonjaVariantHelper,miscLampLightSonjaVariantHelper,deskLampLightSonjaVariantHelper,fluorescentLampLightSonjaVariantHelper,lampLightGooseSonjaVariantHelper,porchLampLight01SonjaVariantHelper"/>
+	</append>
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,100" value="1" tags="endtableLampSonja,tableLampLightSonjaVariantHelper,xrayLightVariantHelper,signExitLightVariantHelper,lightLEDSonjaVariantHelper,popNpillsLightsignSonjaVariantHelper,streetLightElegantClassicSonja,projectorSonjaVariantHelper,hoodRangeLightSonjaVariableHelper,streetLightBigSonja,signTrafficLightSonjaVariantHelper,recessedLightSonjaVariantHelper,miscLampLightSonjaVariantHelper,deskLampLightSonjaVariantHelper,fluorescentLampLightSonjaVariantHelper,lampLightGooseSonjaVariantHelper,porchLampLight01SonjaVariantHelper"/>
+	</append>
+	
+	<csv xpath="//crafting_skill[@name='craftingElectrician']/display_entry/unlock_entry[starts-with(@item,'batterybank')]/@item" op="Add">superVillainDoorSonja_Powered_VariantHelper</csv>
+	<csv xpath="//crafting_skill[@name='craftingElectrician']/effect_group/passive_effect[starts-with(@tags,'batterybank')]/@tags" op="Add">superVillainDoorSonja_Powered_VariantHelper</csv>
+	
+</LittleRedSonja>

@@ -1,0 +1,498 @@
+<configs>
+	<append xpath="/blocks/block[@name='weaponRackItemData']">
+		<property class="DAmeleeToolWireTool">
+			<property name="Scale" value="0.8"/>
+		</property>
+		<property class="gunBotT1JunkSledge">
+			<property name="Scale" value="0.95"/>
+			<property name="OverrideColor" value="255,255,255"/>
+		</property>
+		<property class="gunBotT2JunkTurret">
+			<property name="Scale" value="0.95"/>
+			<property name="OverrideColor" value="255,255,255"/>
+		</property>
+		<property class="gunBotT3JunkDrone">
+			<property name="Scale" value="0.95"/>
+			<property name="OverrideColor" value="255,255,255"/>
+		</property>
+		<property class="gunBowT0PrimitiveBow">
+			<property name="Scale" value="0.5"/>
+		</property>
+		<property class="gunBowT1IronCrossbow">
+			<property name="Scale" value="0.94"/>
+			<property name="Offset" value="0, 0, 0.04"/>
+			<property name="AnimatorOverride" value="#@modfolder:Resources/animators.unity3d?ironCrossBowPrefab"/>
+		</property>
+		<property class="gunBowT1WoodenBow">
+			<property name="Scale" value="0.5"/>
+		</property>
+		<property class="gunBowT3CompoundBow">
+			<property name="Scale" value="0.5"/>
+		</property>
+		<property class="gunBowT3CompoundCrossbow">
+			<property name="Scale" value="0.93"/>
+			<property name="Offset" value="0, 0, 0.04"/>
+			<property name="AnimatorOverride" value="#@modfolder:Resources/animators.unity3d?advancedCompoundCrossbowPrefab"/>
+			<property name="ColliderRotation" value="-90, 0, 0"/>
+		</property>
+		<property class="gunExplosivesT3RocketLauncher">
+			<property name="Scale" value="0.98"/>
+		</property>
+		<property class="gunHandgunT0PipePistol">
+			<property name="Scale" value="0.97"/>
+		</property>
+		<property class="gunHandgunT1Pistol"/>
+		<property class="gunHandgunT2Magnum44">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="gunHandgunT3DesertVulture"/>
+		<property class="gunHandgunT3SMG5">
+			<property name="Scale" value="0.9"/>
+		</property>
+		<property class="gunMGT0PipeMachineGun">
+			<property name="Scale" value="0.93"/>
+		</property>
+		<property class="gunMGT1AK47">
+			<property name="Scale" value="0.97"/>
+		</property>
+		<property class="gunMGT2TacticalAR">
+			<property name="Scale" value="0.94"/>
+		</property>
+		<property class="gunMGT3M60">
+			<property name="Scale" value="0.97"/>
+		</property>
+		<property class="gunRifleT0PipeRifle">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="gunRifleT1HuntingRifle">
+			<property name="Scale" value="0.955"/>
+		</property>
+		<property class="gunRifleT2LeverActionRifle">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="gunRifleT3SniperRifle">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="gunShotgunT0PipeShotgun">
+			<property name="Scale" value="0.94"/>
+		</property>
+		<property class="gunShotgunT1DoubleBarrel"/>
+		<property class="gunShotgunT2PumpShotgun">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="gunShotgunT3AutoShotgun">
+			<property name="Scale" value="0.93"/>
+		</property>
+		<property class="IZYgunT0PistolLiberatorImprovisedPistol">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT0SMGPIPEsubmachinegun">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT145TACSMGMAC10">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT1ARCabineM608SurvivalRifle">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT1ARCabineMASFARifle">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT1BattleRifleBARbrowningautomaticrifle">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT1DualPistolCOLTnavyRevolver">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT1LRLongRifleM16a1">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT1Pistol45M1917">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT1Pistol45Type17C96">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT1Pistol9Makarov">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT1SMGTec9submachinegun">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT1SNIPERRIFLE762Mosinnagant">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT1TACCompactshotgunSuperShortty">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT1TradshotgunDoubleBarrelOverUnder">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT245SMGM3Greasegun">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT2ARCabineCAR15">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT2ARSTG44N">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT2BattleRifleFNFALRifle">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT2ClassicSMGMP34">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT2DualPistolM9bs">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT2DualPistols45M1911A1">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT2LGLChinalakeGrenadeLauncher">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT2LMGlightmachinegunRPD">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT2LMGLMG36">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT2MarksManRifle762M1garandNavyconverted">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT2Pistol45M1911A1">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT2SMGUZIsubmachinegun">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT2TradshotgunLeveractionShotgunModel1887">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT345SMGM1thompson">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT3ARAKM">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT3ARCabineM4Carbine">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT3AREUCabineSG552">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT3BattleRifleHKG3">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT3BULLPUPHellionVHS2">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT3DualPistolGlock18C">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT3DualPistols45USP45">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT3LGLXM25">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT3LMGM249FNminimi">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT3MarksManRifle556M16A2DMR">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT3MarksManRifle762HKPSG1">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT3MarksmanRifleMMRM1Carbine45">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT3Pistol45USP45">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT3PistolMagnumAutomag44">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT3RifleMagnumLeveractionCarbine44">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT3RocketLauncherRPG7">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT3SMGMP5Ksubmachinegun">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT3SMGMP9submachinegun">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT3SNIPERRIFLE762LeeEnfieldRifle">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT3TACshotgunSPAS12G">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT3TechnicalNailmachinegun">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT3TradshotgunTrenchGunM1897">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT445SMGM1928thompson">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT445TACSMGKrissSuperV">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT4ARCabineHK416">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT4BattleRifleSCARH">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT4BowVanhelsingAutomaticCrossbowVH">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT4BULLPUPFNF2000">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT4DualMagnumDesertEagles">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT4DualPistolC96M">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT4DualPistolMP9s">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT4LMGlightmachinegunMG34R">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT4MarksmanRifle45MMRKrissVectorCarbine">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT4MarksManRifle556SSMAR15">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT4MarksManRifle762SVUprototypeRifle">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT4MarksManRifleM110SASS">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT4Pistol45STIEAGLE6">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT4SMGColt9mmsubmachinegun">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT4SMGCZScorpionEVO3">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT4SNIPERRIFLE762L96AWMRifle">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT4TACshotgunM1014">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT4TradshotgunBrowningAuto5">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT5DualSMGsSuperVectors">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT5HeavyWeaponAA12AutoShotgun">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT5HeavyWeaponM134MinigunGatling">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT5HeavyWeaponM2flameThrower">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunT5HeavyWeaponSuperEagle44SMG">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunTminus1MusketFlintlockPistol">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunTminus1MusketM1777Rifle">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYgunTminus1MusketshotgunBlunderbuss">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYMeleeT4BatonPunisher9000">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYMeleeT4BladeKatana">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYMeleeT4DualKnivesKnife">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="IZYMeleeT4SledghammerSpikeMace">
+			<property name="Scale" value="0.62"/>
+		</property>
+		<property class="IZYMeleeT4SpearPoleAxe">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="meleeToolAxeT1IronFireaxe">
+			<property name="Scale" value="0.77"/>
+		</property>
+		<property class="meleeToolAxeT2SteelAxe">
+			<property name="Scale" value="0.77"/>
+			<property name="ColliderRotation" value="-90, 0, -90"/>
+			<property name="ColliderScale" value="0.75"/>
+		</property>
+		<property class="meleeToolAxeT3Chainsaw">
+			<property name="Scale" value="0.91"/>
+		</property>
+		<property class="meleeToolBlockReplaceTool">
+			<property name="Scale" value="0.8"/>
+		</property>
+		<property class="meleeToolFlashlight02">
+			<property name="Scale" value="0.8"/>
+		</property>
+		<property class="meleeToolPaintTool">
+			<property name="Rotation" value="-90, 0, -180"/>
+			<property name="Scale" value="0.73"/>
+		</property>
+		<property class="meleeToolPickT1IronPickaxe">
+			<property name="Scale" value="0.8"/>
+		</property>
+		<property class="meleeToolPickT2SteelPickaxe">
+			<property name="Scale" value="0.79"/>
+		</property>
+		<property class="meleeToolPickT3Auger">
+			<property name="Rotation" value="0, 270, 270"/>
+			<property name="FlipAxis" value="Z"/>
+			<property name="Scale" value="0.65"/>
+			<property name="ColliderRotation" value="-90, 0, 0"/>
+		</property>
+		<property class="meleeToolRepairT0StoneAxe">
+			<property name="Scale" value="0.64"/>
+		</property>
+		<property class="meleeToolRepairT0TazasStoneAxe">
+			<property name="Scale" value="0.8"/>
+		</property>
+		<property class="meleeToolRepairT1ClawHammer">
+			<property name="Scale" value="0.87"/>
+		</property>
+		<property class="meleeToolRepairT3Nailgun">
+			<property name="Rotation" value="-90, 0, 0"/>
+			<property name="Scale" value="1.54"/>
+		</property>
+		<property class="meleeToolSalvageT1Wrench">
+			<property name="Scale" value="0.73"/>
+		</property>
+		<property class="meleeToolSalvageT2Ratchet">
+			<property name="Scale" value="0.85"/>
+		</property>
+		<property class="meleeToolSalvageT3ImpactDriver">
+			<property name="Scale" value="0.86"/>
+		</property>
+		<property class="meleeToolShovelT0StoneShovel">
+			<property name="Scale" value="0.6"/>
+			<property name="ColliderRotation" value="0, 90, 0"/>
+			<property name="Rotation" value="0, 180, 0"/>
+		</property>
+		<property class="meleeToolShovelT1IronShovel">
+			<property name="Scale" value="0.6"/>
+			<property name="Rotation" value="0, 180, 0"/>
+		</property>
+		<property class="meleeToolShovelT2SteelShovel">
+			<property name="Scale" value="0.6"/>
+			<property name="FlipAxis" value="Y"/>
+			<property name="Rotation" value="0, 180, 0"/>
+		</property>
+		<property class="meleeToolTorch">
+			<property name="Scale" value="0.22"/>
+		</property>
+		<property class="meleeToolWireTool">
+			<property name="Rotation" value="119.735, -90, -270"/>
+			<property name="Scale" value="0.92"/>
+			<property name="AnimatorOverride" value="#@modfolder:Resources/animators.unity3d?wire_strippersPrefab"/>
+		</property>
+		<property class="meleeWpnBatonT0PipeBaton">
+			<property name="Rotation" value="-90, 0, -270"/>
+			<property name="Scale" value="0.72"/>
+		</property>
+		<property class="meleeWpnBatonT2StunBaton">
+			<property name="Scale" value="0.72"/>
+		</property>
+		<property class="meleeWpnBatonT3PlasmaBaton"/>
+		<property class="meleeWpnBladeT0BoneKnife">
+			<property name="Scale" value="0.55"/>
+		</property>
+		<property class="meleeWpnBladeT1CandyKnife">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="meleeWpnBladeT1HuntingKnife">
+			<property name="Scale" value="0.65"/>
+		</property>
+		<property class="meleeWpnBladeT3Machete">
+			<property name="Scale" value="0.73"/>
+		</property>
+		<property class="meleeWpnClubT0WoodenClub">
+			<property name="Scale" value="0.58"/>
+		</property>
+		<property class="meleeWpnClubT1BaseballBat">
+			<property name="Scale" value="0.75"/>
+		</property>
+		<property class="meleeWpnClubT1CandyClub">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="meleeWpnClubT3SteelClub">
+			<property name="Scale" value="0.64"/>
+		</property>
+		<property class="meleeWpnKnucklesT0LeatherKnuckles">
+			<property name="Scale" value="0.78"/>
+			<property name="Rotation" value="0, 0, 38.134"/>
+		</property>
+		<property class="meleeWpnKnucklesT1IronKnuckles">
+			<property name="Scale" value="0.9"/>
+			<property name="Rotation" value="19.387, -10.251, 0.645"/>
+		</property>
+		<property class="meleeWpnKnucklesT3SteelKnuckles">
+			<property name="Scale" value="0.9"/>
+			<property name="Rotation" value="19.387, -10.251, 0.645"/>
+		</property>
+		<property class="meleeWpnSledgeT0StoneSledgehammer">
+			<property name="Scale" value="0.54"/>
+		</property>
+		<property class="meleeWpnSledgeT1IronSledgehammer">
+			<property name="Scale" value="0.68"/>
+		</property>
+		<property class="meleeWpnSledgeT3SteelSledgehammer">
+			<property name="Scale" value="0.62"/>
+		</property>
+		<property class="meleeWpnSpearT0StoneSpear">
+			<property name="Scale" value="0.5"/>
+			<property name="ColliderRotation" value="-90, 0, 0"/>
+		</property>
+		<property class="meleeWpnSpearT1IronSpear">
+			<property name="Scale" value="0.4"/>
+		</property>
+		<property class="meleeWpnSpearT3SteelSpear">
+			<property name="Scale" value="0.4"/>
+		</property>
+		<property class="thrownAmmoMolotovCocktail">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="thrownAmmoPipeBomb">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="thrownDynamite">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="thrownGrenade"/>
+		<property class="thrownGrenadeContact">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="thrownTimedCharge">
+			<property name="Scale" value="0.95"/>
+		</property>
+	</append>
+</configs>
