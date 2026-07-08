@@ -1,0 +1,43 @@
+<configs>
+    <append xpath="/recipes/recipe[
+        @name='modMeleeFiremansAxeMod' or
+        @name='modGunShotgunTubeExtenderMagazine' or
+        @name='modFuelTankSmall' or
+        @name='modMeleeGraveDigger' or
+        @name='modMeleeSerratedBlade' or
+        @name='modMeleeStructuralBrace' or
+        @name='modMeleeWeightedHead' or
+        @name='modMeleeWoodSplitter' or
+        @name='modGunMeleeTheHunter' or
+        @name='modGunMagazineExtender' or
+        @name='modGunBowArrowRest' or
+        @name='modMeleeClubBarbedWire' or
+        @name='modFuelTankLarge' or
+        @name='modGunCrippleEm' or
+        @name='modMeleeBunkerBuster' or
+        @name='modMeleeClubBurningShaft' or
+        @name='modMeleeFortifyingGrip' or
+        @name='modMeleeClubMetalChain' or
+        @name='modVehicleFuelSaver' or
+        @name='modVehicleReserveFuelTank' or
+        @name='modMeleeDiamondTip' or
+        @name='modArmorCigar' or
+        @name='modArmorBandolier' or
+        @name='modGunBowPolymerString' or
+        @name='modGunDrumMagazineExtender' or
+        @name='modGunMeleeRadRemover' or
+        @name='modMeleeClubMetalSpikes' or
+        @name='modMeleeErgonomicGrip' or
+        @name='modMeleeIronBreaker' or
+        @name='modMeleeTemperedBlade' or
+        @name='modRoboticDroneStunWeaponMod'
+    ]">
+        <effect_group>
+            <passive_effect name="CraftingIngredientCount"
+                            operation="perc_add"
+                            level="2,6"
+                            value=".4,2"
+                            tags="ammoGasCan,resourceAcid,resourceCloth,resourceDuctTape,resourceElectricParts,resourceForgedIron,resourceForgedSteel,resourceGlue,resourceLeather,resourceMechanicalParts,resourceOil,resourcePaper,resourceRawDiamond,resourceScrapPolymers,resourceSewingKit,resourceSpring,resourceTestosteroneExtract,resourceYuccaFibers"/>
+        </effect_group>
+    </append>
+</configs>

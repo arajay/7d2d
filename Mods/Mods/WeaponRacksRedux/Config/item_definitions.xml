@@ -1,0 +1,549 @@
+<configs>
+	<append xpath="/blocks/block[@name='weaponRackItemData']">
+
+		<!-- Vanilla -->
+		<property class="gunHandgunT0PipePistol">
+			<property name="Scale" value="0.97"/>
+		</property>
+		<property class="gunHandgunT1Pistol"/>
+		<property class="gunHandgunT2Magnum44">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="gunHandgunT3SMG5">
+			<property name="Scale" value="0.9"/>
+		</property>
+		<property class="gunHandgunT3DesertVulture"/>
+		<property class="gunShotgunT0PipeShotgun">
+			<property name="Scale" value="0.94"/>
+		</property>
+		<property class="gunShotgunT1DoubleBarrel"/>
+		<property class="gunShotgunT2PumpShotgun">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="gunShotgunT3AutoShotgun">
+			<property name="Scale" value="0.93"/>
+		</property>
+		<property class="gunRifleT0PipeRifle">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="gunRifleT1HuntingRifle">
+			<property name="Scale" value="0.955"/>
+		</property>
+		<property class="gunRifleT2LeverActionRifle">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="gunRifleT3SniperRifle">
+			<property name="Scale" value="0.95"/>
+		</property>
+		<property class="gunMGT0PipeMachineGun">
+			<property name="Scale" value="0.93"/>
+		</property>
+		<property class="gunMGT1AK47">
+			<property name="Scale" value="0.97"/>
+		</property>
+		<property class="gunMGT2TacticalAR">
+			<property name="Scale" value="0.94"/>
+		</property>
+		<property class="gunMGT3M60">
+			<property name="Scale" value="0.97"/>
+		</property>
+		<property class="gunExplosivesT3RocketLauncher">
+			<property name="Scale" value="0.98"/>
+		</property>
+		<property class="gunBowT0PrimitiveBow">
+			<property name="Scale" value="0.5"/>
+		</property>
+		<property class="gunBowT1WoodenBow">
+			<property name="Scale" value="0.5"/>
+		</property>
+		<property class="gunBowT3CompoundBow">
+			<property name="Scale" value="0.5"/>
+		</property>
+		<property class="gunBowT1IronCrossbow">
+			<property name="Scale" value="0.94"/>
+			<property name="Offset" value="0, 0, 0.04"/>
+			<property name="AnimatorOverride" value="#@modfolder(WeaponRacksRedux):Resources/animators.unity3d?ironCrossBowPrefab"/>
+		</property>
+		<property class="gunBowT3CompoundCrossbow">
+			<property name="Scale" value="0.93"/>
+			<property name="Offset" value="0, 0, 0.04"/>
+			<property name="AnimatorOverride" value="#@modfolder(WeaponRacksRedux):Resources/animators.unity3d?advancedCompoundCrossbowPrefab"/>
+			<property name="ColliderRotation" value="-90, 0, 0"/>
+		</property>
+		<property class="meleeWpnSledgeT0StoneSledgehammer">
+			<property name="Scale" value="0.54"/>
+		</property>
+		<property class="meleeWpnSledgeT1IronSledgehammer">
+			<property name="Scale" value="0.68"/>
+		</property>
+		<property class="meleeWpnSledgeT3SteelSledgehammer">
+			<property name="Scale" value="0.62"/>
+		</property>
+		<property class="meleeToolRepairT3Nailgun">
+			<property name="Rotation" value="-90, 0, 0"/>
+			<property name="Scale" value="1.54"/>
+		</property>
+		<property class="meleeToolShovelT0StoneShovel">
+			<property name="Scale" value="0.6"/>
+			<property name="ColliderRotation" value="0, 90, 0"/>
+			<property name="Rotation" value="0, 180, 0"/>
+		</property>
+		<property class="meleeToolShovelT1IronShovel">
+			<property name="Scale" value="0.6"/>
+			<property name="Rotation" value="0, 180, 0"/>
+		</property>
+		<property class="meleeToolShovelT2SteelShovel">
+			<property name="Scale" value="0.6"/>
+			<property name="FlipAxis" value="Y"/>
+			<property name="Rotation" value="0, 180, 0"/>
+		</property>
+		<property class="meleeToolRepairT0StoneAxe">
+			<property name="Scale" value="0.64"/>
+		</property>
+		<property class="meleeToolAxeT1IronFireaxe">
+			<property name="Scale" value="0.77"/>
+		</property>
+		<property class="meleeToolAxeT2SteelAxe">
+			<property name="Scale" value="0.77"/>
+			<property name="ColliderRotation" value="-90, 0, -90"/>
+			<property name="ColliderScale" value="0.75"/>
+		</property>
+		<property class="meleeToolAxeT3Chainsaw">
+			<property name="Scale" value="0.91"/>
+		</property>
+		<property class="meleeWpnClubT0WoodenClub">
+			<property name="Scale" value="0.58"/>
+		</property>
+		<property class="meleeWpnClubT1BaseballBat">
+			<property name="Scale" value="0.75"/>
+		</property>
+		<property class="meleeWpnClubT3SteelClub">
+			<property name="Scale" value="0.64"/>
+		</property>
+		<property class="meleeWpnBladeT0BoneKnife">
+			<property name="Scale" value="0.55"/>
+		</property>
+		<property class="meleeWpnBladeT1HuntingKnife">
+			<property name="Scale" value="0.65"/>
+		</property>
+		<property class="meleeWpnBladeT3Machete">
+			<property name="Scale" value="0.73"/>
+		</property>
+		<property class="meleeWpnKnucklesT0LeatherKnuckles">
+			<property name="Scale" value="0.78"/>
+			<property name="Rotation" value="0, 0, 38.134"/>
+		</property>
+		<property class="meleeWpnKnucklesT1IronKnuckles">
+			<property name="Scale" value="0.9"/>
+			<property name="Rotation" value="19.387, -10.251, 0.645"/>
+		</property>
+		<property class="meleeWpnKnucklesT3SteelKnuckles">
+			<property name="Scale" value="0.9"/>
+			<property name="Rotation" value="19.387, -10.251, 0.645"/>
+		</property>
+		<property class="meleeToolPickT1IronPickaxe">
+			<property name="Scale" value="0.8"/>
+		</property>
+		<property class="meleeToolPickT2SteelPickaxe">
+			<property name="Scale" value="0.79"/>
+		</property>
+		<property class="meleeToolPickT3Auger">
+			<property name="Rotation" value="0, 270, 270"/>
+			<property name="FlipAxis" value="Z"/>
+			<property name="Scale" value="0.65"/>
+			<property name="ColliderRotation" value="-90, 0, 0"/>
+		</property>
+		<property class="meleeToolSalvageT1Wrench">
+			<property name="Scale" value="0.73"/>
+		</property>
+		<property class="meleeToolSalvageT2Ratchet">
+			<property name="Scale" value="0.85"/>
+		</property>
+		<property class="meleeToolSalvageT3ImpactDriver">
+			<property name="Scale" value="0.86"/>
+		</property>
+		<property class="meleeWpnBatonT0PipeBaton">
+			<property name="Rotation" value="-90, 0, -270"/>
+			<property name="Scale" value="0.72"/>
+		</property>
+		<property class="meleeWpnBatonT2StunBaton">
+			<property name="Scale" value="0.72"/>
+		</property>
+		<property class="meleeWpnSpearT0StoneSpear">
+			<property name="Scale" value="0.5"/>
+			<property name="ColliderRotation" value="-90, 0, 0"/>
+		</property>
+		<property class="meleeWpnSpearT1IronSpear">
+			<property name="Scale" value="0.4"/>
+		</property>
+		<property class="meleeWpnSpearT3SteelSpear">
+			<property name="Scale" value="0.4"/>
+		</property>
+		<property class="meleeToolWireTool">
+			<property name="Rotation" value="119.735, -90, -270"/>
+			<property name="Scale" value="0.92"/>
+			<property name="AnimatorOverride" value="#@modfolder(WeaponRacksRedux):Resources/animators.unity3d?wire_strippersPrefab"/>
+		</property>
+		<property class="meleeToolPaintTool">
+			<property name="Rotation" value="-90, 0, -180"/>
+			<property name="Scale" value="0.73"/>
+		</property>
+		<property class="meleeToolRepairT1ClawHammer">
+			<property name="Scale" value="0.87"/>
+		</property>
+		<property class="meleeToolRepairT0TazasStoneAxe"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.52"/></property>
+		<property class="meleeWpnBladeT1CandyKnife"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.52"/></property>
+		<property class="meleeWpnClubT1CandyClub"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.52"/></property>
+		<property class="meleeToolFlashlight02"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.52"/></property>
+		<property class="meleeToolTorch"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.52"/></property>
+
+		<!-- EFTX -->
+		<property class="gunppsh41"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunppsh41"/></property>
+		<property class="gunpp9klin"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunpp9klin"/></property>
+		<property class="gunpp19bizon"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunpp19bizon"/></property>
+		<property class="gunmp5k"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunmp5k"/><property name="RackPivot" value="BoundsCenter"/></property>
+		<property class="gunmp5"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunmp5"/></property>
+		<property class="gunmp9"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunmp9"/></property>
+		<property class="gunpp19vityaz"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunpp19vityaz"/></property>
+		<property class="gunmp5sd"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunmp5sd"/></property>
+		<property class="gunvector9"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunvector9"/></property>
+		<property class="gunmpx"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunmpx"/></property>
+		<property class="gunstm9"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunstm9"/></property>
+		<property class="gunscorpionevo3"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunscorpionevo3"/></property>
+		<property class="gunsr2mveresk"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunsr2mveresk"/></property>
+		<property class="gunump45"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunump45"/></property>
+		<property class="gunthompson"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunthompson"/></property>
+		<property class="gunvector45"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunvector45"/></property>
+		<property class="gunmp7"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunmp7"/></property>
+		<property class="gunp90"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunp90"/></property>
+		<property class="gunhkg3"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunhkg3"/></property>
+		<property class="guntokarevtt"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?guntokarevtt"/></property>
+		<property class="guntokarevgold"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?guntokarevgold"/></property>
+		<property class="guntokarevmachine"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?guntokarevmachine"/></property>
+		<property class="gunpb"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunpb"/></property>
+		<property class="gunpmalphadog"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunpmalphadog"/></property>
+		<property class="gunstechkin"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunstechkin"/></property>
+		<property class="gunglock17"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunglock17"/></property>
+		<property class="gunp226"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunp226"/></property>
+		<property class="gunm9a3"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunm9a3"/></property>
+		<property class="gunglock18c"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunglock18c"/></property>
+		<property class="gunsr1mp"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunsr1mp"/></property>
+		<property class="gunusp45tac"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunusp45tac"/></property>
+		<property class="gunm1911"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunm1911"/></property>
+		<property class="gunm45"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunm45"/></property>
+		<property class="gunusp45match"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunusp45match"/></property>
+		<property class="gunfiveseven"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunfiveseven"/></property>
+		<property class="gunrsh12"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunrsh12"/></property>
+		<property class="gunks23"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunks23"/></property>
+		<property class="gunmp43"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunmp43"/></property>
+		<property class="gunm590"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunm590"/></property>
+		<property class="gunmp153"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunmp153"/></property>
+		<property class="gunmp155ultima"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunmp155ultima"/></property>
+		<property class="gunm1014"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunm1014"/></property>
+		<property class="gunm4a1"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunm4a1"/></property>
+		<property class="gunfamas"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunfamas"/></property>
+		<property class="gunm16a4"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunm16a4"/></property>
+		<property class="gunm4a1sopmod"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunm4a1sopmod"/></property>
+		<property class="gunl85a2"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunl85a2"/></property>
+		<property class="gunmdr556"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunmdr556"/></property>
+		<property class="gunhk416"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunhk416"/></property>
+		<property class="guntx15"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?guntx15"/></property>
+		<property class="gunstar15"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunstar15"/></property>
+		<property class="gunhoneybadger"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunhoneybadger"/></property>
+		<property class="gunmcx"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunmcx"/></property>
+		<property class="gunmdr762"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunmdr762"/></property>
+		<property class="gunmp18"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunmp18"/></property>
+		<property class="gunmosin"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunmosin"/></property>
+		<property class="gunsvt"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunsvt"/></property>
+		<property class="gunash12"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunash12"/><property name="ColliderOffset" value="0, 0.096, -0.558"/></property>
+		<property class="gunrpk16"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunrpk16"/></property>
+		<property class="gunfnminimi"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunfnminimi"/><property name="ColliderOffset" value="0, -0.098, 0.423"/><property name="PickupBoundsIgnore" value="WraithMesh_508c1a68_13|WraithMesh_a2115aa3_03"/></property>
+		<property class="gunrpd"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunrpd"/></property>
+		<property class="gunpkp"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunpkp"/></property>
+		<property class="gunaks74un"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunaks74un"/></property>
+		<property class="gunak74n"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunak74n"/></property>
+		<property class="gunak74m"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunak74m"/></property>
+		<property class="gunak12"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunak12"/></property>
+		<property class="gunakmn"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunakmn"/></property>
+		<property class="gunrd704"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunrd704"/></property>
+		<property class="gunmk47"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunmk47"/></property>
+		<property class="gunak107"><property name="OverrideColor" value="255,255,255"/><property name="Collider" value="#@modfolder(WeaponRacksRedux):Resources/colliders_tarkov.unity3d?gunak107"/></property>
+		<property class="gun9a91"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunAA12"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="gunAA12gen1"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="gunadar"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunak103"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunak109"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunak300velociraptor"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunasval"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunauga1"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunauga3"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunaxmc"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunchinalake"><property name="Scale" value="0.92"/><property name="ColliderScale" value="0.28"/></property>
+		<property class="gundeserteagle"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="gundvl10"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunFALsa58br"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunFALsa58dmr"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunfn40gl"><property name="Scale" value="0.92"/><property name="ColliderScale" value="0.28"/></property>
+		<property class="gung36kv2"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunhk417"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunhkg28"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunIWIcarmel"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunIWItavorx95"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunksg12"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="gunm110sass"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunm14sass"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunm16a1"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunm1aEBR"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunm32a1mgl"><property name="Scale" value="0.92"/><property name="ColliderScale" value="0.28"/></property>
+		<property class="gunm3benelli"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="gunm60e6"><property name="Scale" value="0.88"/><property name="ColliderScale" value="0.28"/></property>
+		<property class="gunm700"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunm870"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="gunmcxspear"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunmk12spr"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunmp133"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="gunmp43sawedoff"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="gunmts255"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="gunmxlr"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunnl545"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunpm"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunrfb"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunrpg26"><property name="Scale" value="0.92"/><property name="ColliderScale" value="0.28"/></property>
+		<property class="gunrpg7"><property name="Scale" value="0.92"/><property name="ColliderScale" value="0.28"/></property>
+		<property class="gunrsass"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunsagak545"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunsaiga12"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="gunsaiga12semi"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="gunscarh"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunserbusupershorty"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="gunsks"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunsr25"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunstriker12"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="gunsv98"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunsvd"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunswordmk18"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunt5000"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunTheAKGuyAK50"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntoz106"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="gunucp"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="gunuzi"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="gunuziprosmg"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="gunvss"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+
+		<!-- IZY support suspended for the 2.5 branch. Preserve these tuned entries for the 3.0 IZY refresh.
+		<property class="IZYgunT0PistolLiberatorImprovisedPistol"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="IZYgunT0SMGPIPEsubmachinegun"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="IZYgunT0SNIPERpipeAR15Broken15Junk"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT145TACSMGMAC10"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="IZYgunT1ARCabineM608SurvivalRifle"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT1ARCabineMASFARifle"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT1BattleRifleBARbrowningautomaticrifle"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT1DualPistolCOLTnavyRevolver"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="IZYgunT1LRLongRifleM16a1"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT1Pistol45M1917"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="IZYgunT1Pistol45Type17C96"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="IZYgunT1Pistol9Makarov"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="IZYgunT1SMGTec9submachinegun"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="IZYgunT1SNIPERRIFLE762Mosinnagant"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT1TACCompactshotgunSuperShortty"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="IZYgunT1TradshotgunDoubleBarrelOverUnder"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="IZYgunT245SMGM3Greasegun"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="IZYgunT2ARCabineCAR15"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT2ARSTG44N"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT2BattleRifleFNFALRifle"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT2ClassicSMGMP34"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="IZYgunT2DualPistolM9bs"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="IZYgunT2DualPistols45M1911A1"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="IZYgunT2LGLChinalakeGrenadeLauncher"><property name="Scale" value="0.92"/><property name="ColliderScale" value="0.28"/></property>
+		<property class="IZYgunT2LMGlightmachinegunRPD"><property name="Scale" value="0.92"/><property name="ColliderScale" value="0.28"/></property>
+		<property class="IZYgunT2LMGLMG36"><property name="Scale" value="0.92"/><property name="ColliderScale" value="0.28"/></property>
+		<property class="IZYgunT2MarksManRifle762M1garandNavyconverted"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT2Pistol45M1911A1"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="IZYgunT2SMGUZIsubmachinegun"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="IZYgunT2TradshotgunLeveractionShotgunModel1887"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="IZYgunT345SMGM1thompson"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="IZYgunT3ARAKM"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT3ARCabineM4Carbine"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT3AREUCabineSG552"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT3BattleRifleHKG3"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT3BULLPUPHellionVHS2"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT3DualPistolGlock18C"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="IZYgunT3DualPistols45USP45"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="IZYgunT3LGLXM25"><property name="Scale" value="0.92"/><property name="ColliderScale" value="0.28"/></property>
+		<property class="IZYgunT3LMGM249FNminimi"><property name="Scale" value="0.88"/><property name="ColliderScale" value="0.28"/></property>
+		<property class="IZYgunT3MarksManRifle556M16A2DMR"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT3MarksManRifle762HKPSG1"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT3MarksmanRifleMMRM1Carbine45"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT3Pistol45USP45"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="IZYgunT3PistolMagnumAutomag44"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="IZYgunT3RifleMagnumLeveractionCarbine44"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="IZYgunT3RocketLauncherRPG7"><property name="Scale" value="0.92"/><property name="ColliderScale" value="0.28"/></property>
+		<property class="IZYgunT3SMGMP5Ksubmachinegun"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="IZYgunT3SMGMP9submachinegun"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="IZYgunT3SNIPERRIFLE762LeeEnfieldRifle"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT3TACshotgunSPAS12G"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="IZYgunT3TechnicalNailmachinegun"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT3TradshotgunTrenchGunM1897"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="IZYgunT445SMGM1928thompson"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="IZYgunT445TACSMGKrissSuperV"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="IZYgunT4ARCabineHK416"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT4BattleRifleSCARH"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT4BowVanhelsingAutomaticCrossbowVH"><property name="Scale" value="0.95"/><property name="ColliderScale" value="0.40"/></property>
+		<property class="IZYgunT4BULLPUPFNF2000"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT4DualMagnumDesertEagles"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="IZYgunT4DualPistolC96M"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="IZYgunT4DualPistolMP9s"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="IZYgunT4LMGlightmachinegunMG34R"><property name="Scale" value="0.92"/><property name="ColliderScale" value="0.28"/></property>
+		<property class="IZYgunT4MarksmanRifle45MMRKrissVectorCarbine"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="IZYgunT4MarksManRifle556SSMAR15"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT4MarksManRifle762SVUprototypeRifle"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT4MarksManRifleM110SASS"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT4Pistol45STIEAGLE6"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="IZYgunT4SMGColt9mmsubmachinegun"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="IZYgunT4SMGCZScorpionEVO3"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="IZYgunT4SNIPERRIFLE762L96AWMRifle"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunT4TACshotgunM1014"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="IZYgunT4TradshotgunBrowningAuto5"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="IZYgunT5DualSMGsSuperVectors"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="IZYgunT5HeavyWeaponAA12AutoShotgun"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="IZYgunT5HeavyWeaponM134MinigunGatling"><property name="Scale" value="0.88"/><property name="ColliderScale" value="0.28"/></property>
+		<property class="IZYgunT5HeavyWeaponM2flameThrower"><property name="Scale" value="0.88"/><property name="ColliderScale" value="0.28"/></property>
+		<property class="IZYgunT5HeavyWeaponSuperEagle44SMG"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="IZYgunTminus1MusketFlintlockPistol"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="IZYgunTminus1MusketM1777Rifle"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="IZYgunTminus1MusketshotgunBlunderbuss"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="IZYMeleeT4BatonPunisher9000"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.52"/></property>
+		<property class="IZYMeleeT4BladeKatana"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.52"/></property>
+		<property class="IZYMeleeT4DualKnivesKnife"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.52"/></property>
+		<property class="IZYMeleeT4SledghammerSpikeMace"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.52"/></property>
+		<property class="IZYMeleeT4SpearPoleAxe"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.52"/></property>
+
+		-->
+
+		<!-- EFTX prefab-name aliases. These are not the item names, but WRR can now use them as tuning fallbacks when Meshfile prefab names differ from item names. -->
+		<property class="guntarkovppsh41"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="guntarkovpp9klin"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="guntarkovmp5k"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="guntarkovmp5"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="guntarkovuzi"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="guntarkovpp19vityaz"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="guntarkovmp9"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="guntarkovuziprosmg"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="guntarkovmp5sd"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="guntarkovvector9"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="guntarkovmpx"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="guntarkovstm9"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="guntarkovsr2mveresk"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovump45"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="guntarkovthompson"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="guntarkovvector45"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="guntarkovmp7"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="guntarkovp90"><property name="Scale" value="0.96"/><property name="ColliderScale" value="0.44"/></property>
+		<property class="guntarkovtokarevtt"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="guntarkovtokarevgold"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="guntarkovpmalphadog"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="guntarkovstechkin"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="guntarkovglock17"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="guntarkovp226"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="guntarkovm9a3"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="guntarkovglock18c"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="guntarkovsr1mp"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovusp45tac"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="guntarkovm1911"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="guntarkovm45"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="guntarkovusp45match"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="guntarkovucp"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovfiveseven"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="guntarkovpm"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="guntarkovpb"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="guntarkovdeserteagle"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="guntarkovrsh12"><property name="Scale" value="0.98"/><property name="ColliderScale" value="0.46"/></property>
+		<property class="guntarkovks23"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="guntarkovtoz106"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="guntarkovserbusupershorty"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovmp43sawedoff"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovmp43"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovmts255"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovm590"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovm870"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="guntarkovmp133"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="guntarkovksg12"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovmp153"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovm3benelli"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="guntarkovsaiga12"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="guntarkovsaiga12semi"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="guntarkovAA12"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="guntarkovAA12gen1"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.36"/></property>
+		<property class="guntarkovstriker12"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovfn40gl"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovchinalake"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovrpg26"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovm32a1mgl"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovrpg7"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovadar"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovauga1"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovauga3"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovsagak545"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovg36kv2"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovfamas"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovm4a1"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovm16a1"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovm16a4"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovmk12spr"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovhk416"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovIWItavorx95"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovmdr556"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovIWIcarmel"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovak300velociraptor"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovhoneybadger"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovmcx"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovm700"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovm110sass"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovdvl10"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovt5000"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovFALsa58dmr"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovm1aEBR"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovrfb"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovsr25"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovrsass"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovhkg28"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovFALsa58br"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovmdr762"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovscarh"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovhk417"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovm14sass"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovmcxspear"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovmxlr"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovmp18"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovmosin"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovsv98"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovsvt"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovsvd"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovash12"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovfnminimi"><property name="Scale" value="0.88"/><property name="ColliderScale" value="0.28"/></property>
+		<property class="guntarkovrpd"><property name="Scale" value="0.88"/><property name="ColliderScale" value="0.28"/></property>
+		<property class="guntarkovm60e6"><property name="Scale" value="0.88"/><property name="ColliderScale" value="0.28"/></property>
+		<property class="guntarkovpkp"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovaks74un"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovak74n"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovak74m"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovrpk16"><property name="Scale" value="0.88"/><property name="ColliderScale" value="0.28"/></property>
+		<property class="guntarkovak12"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovak107"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovnl545"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovsks"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovakmn"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovak103"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovak109"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovrd704"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovmk47"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkov9a91"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovvss"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovasval"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovaxmc"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovswordmk18"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+		<property class="guntarkovTheAKGuyAK50"><property name="Scale" value="0.93"/><property name="ColliderScale" value="0.34"/></property>
+
+	</append>
+</configs>

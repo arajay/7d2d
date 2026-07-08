@@ -1,0 +1,8 @@
+{
+  "Enabled": true,
+  "Range": 15,
+  "IncludeLockedContainers": false,
+  "ExcludeContainersByLabel": true,
+  "ExcludedLabelText": "**",
+  "DebugLogging": false
+}

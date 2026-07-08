@@ -1,0 +1,15 @@
+<configs>
+    <!-- Quality mods formerly unlocked by schematics now use the magazine skill. -->
+    <set xpath="/item_modifiers/item_modifier[
+        property[@name='ShowQuality' and @value='true'] and
+        property[@name='UnlockedBy' and contains(@value,'Schematic')]
+    ]/property[@name='UnlockedBy']/@value">craftingItemMods</set>
+
+    <!-- Preserve the perk-book route while adding the magazine as an alternative. -->
+    <set xpath="/item_modifiers/item_modifier[@name='modGunDrumMagazineExtender']/property[@name='UnlockedBy']/@value">perkAutoWeaponsDrumMag,craftingItemMods</set>
+    <set xpath="/item_modifiers/item_modifier[@name='modGunShotgunTubeExtenderMagazine']/property[@name='UnlockedBy']/@value">perkShotgunMessiahMagazine,craftingItemMods</set>
+    <set xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalChain']/property[@name='UnlockedBy']/@value">perkBatterUpMetalChain,craftingItemMods</set>
+    <set xpath="/item_modifiers/item_modifier[@name='modMeleeFiremansAxeMod']/property[@name='UnlockedBy']/@value">perkFiremansAlmanacAxes,craftingItemMods</set>
+    <set xpath="/item_modifiers/item_modifier[@name='modMeleeDiamondTip']/property[@name='UnlockedBy']/@value">perkArtOfMiningDiamondTools,craftingItemMods</set>
+    <set xpath="/item_modifiers/item_modifier[@name='modArmorCigar']/property[@name='UnlockedBy']/@value">perkUrbanCombatCigar,craftingItemMods</set>
+</configs>

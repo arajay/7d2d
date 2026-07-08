@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <Name value="ModMagazineSeries"/>
+    <DisplayName value="Mod Magazine Series"/>
+    <Version value="1.0.0"/>
+    <Description value="Adds a magazine series for item mods, no longer requiring you to find separate schematics and being able to unlock higher qualities."/>
+    <Author value="Firevos"/>
+</xml>
