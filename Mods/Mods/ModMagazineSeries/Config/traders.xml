@@ -1,0 +1,32 @@
+<configs>
+    <remove xpath="//item[
+        @name='modFuelTankSmallSchematic' or
+        @name='modGunMagazineExtenderSchematic' or
+        @name='modGunMeleeTheHunterSchematic' or
+        @name='modMeleeGraveDiggerSchematic' or
+        @name='modMeleeSerratedBladeSchematic' or
+        @name='modMeleeStructuralBraceSchematic' or
+        @name='modMeleeWeightedHeadSchematic' or
+        @name='modMeleeWoodSplitterSchematic' or
+        @name='modFuelTankLargeSchematic' or
+        @name='modGunBowArrowRestSchematic' or
+        @name='modGunCrippleEmSchematic' or
+        @name='modMeleeBunkerBusterSchematic' or
+        @name='modMeleeClubBarbedWireSchematic' or
+        @name='modMeleeClubBurningShaftSchematic' or
+        @name='modMeleeFortifyingGripSchematic' or
+        @name='modVehicleFuelSaverSchematic' or
+        @name='modVehicleReserveFuelTankSchematic' or
+        @name='modArmorBandolierSchematic' or
+        @name='modGunBowPolymerStringSchematic' or
+        @name='modGunMeleeRadRemoverSchematic' or
+        @name='modMeleeClubMetalSpikesSchematic' or
+        @name='modMeleeErgonomicGripSchematic' or
+        @name='modMeleeIronBreakerSchematic' or
+        @name='modMeleeTemperedBladeSchematic' or
+        @name='modRoboticDroneStunWeaponModSchematic'
+    ]"/>
+    <append xpath="/traders/trader_item_groups/trader_item_group[@name='skillMagazines']">
+        <item name="itemModsSkillMagazine" count="1"/>
+    </append>
+</configs>

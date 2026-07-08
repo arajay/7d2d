@@ -1,0 +1,5 @@
+<configs>
+	<append xpath="/lootcontainers">
+		<lootcontainer name="WeaponRackPlayer" count="0" size="6,5" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate"/>
+	</append>
+</configs>

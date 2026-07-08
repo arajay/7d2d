@@ -1,0 +1,119 @@
+<configs>
+	<append xpath="/blocks">
+		<block name="weaponRackPlayer">
+			<property name="Material" value="Mwood"/>
+			<property name="Class" value="WeaponRack, WeaponRacksRedux"/>
+			<property class="CompositeFeatures">
+				<property class="TEFeatureStorage">
+					<property name="LootList" value="WeaponRackPlayer"/>
+				</property>
+				<property class="TEFeatureLockable"/>
+			</property>
+			<property name="DescriptionKey" value="weaponRackPlayerDesc"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="AllowedRotations" value="Basic90"/>
+			<property name="Model" value="#@modfolder(WeaponRacksRedux):Resources/weaponRacks.unity3d?WeaponRackPrefab"/>
+			<property name="NoQuickLoot" value="true"/>
+			<property name="QuickLootIgnore" value="true"/>
+			<property name="QuickLootDisabled" value="true"/>
+			<property name="QuickLootExclude" value="true"/>
+			<property name="QL_Disable" value="true"/>
+			<property name="QL_Ignore" value="true"/>
+			<property name="MultiBlockDim" value="2,1,1"/>
+			<property name="ModelOffset" value="0,.5,0"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+		</block>
+		<block name="weaponRackGreyPlayer">
+			<property name="Extends" value="weaponRackPlayer"/>
+			<property name="Model" value="#@modfolder(WeaponRacksRedux):Resources/weaponRacks.unity3d?WeaponRackTintPrefab"/>
+		</block>
+		<block name="weaponRackRedPlayer">
+			<property name="Extends" value="weaponRackGreyPlayer"/>
+			<property name="CustomIcon" value="weaponRackGreyPlayer"/>
+			<property name="TintColor" value="255,95,98,255"/>
+			<property name="CustomIconTint" value="255,95,98,255"/>
+		</block>
+		<block name="weaponRackOrangePlayer">
+			<property name="Extends" value="weaponRackPlayer"/>
+			<property name="CustomIcon" value="weaponRackGreyPlayer"/>
+			<property name="TintColor" value="253,127,35,255"/>
+			<property name="CustomIconTint" value="253,127,35,255"/>
+		</block>
+		<block name="weaponRackYellowPlayer">
+			<property name="Extends" value="weaponRackPlayer"/>
+			<property name="CustomIcon" value="weaponRackGreyPlayer"/>
+			<property name="TintColor" value="255,253,56,255"/>
+			<property name="CustomIconTint" value="255,253,56,255"/>
+		</block>
+		<block name="weaponRackYellowGreenPlayer">
+			<property name="Extends" value="weaponRackPlayer"/>
+			<property name="CustomIcon" value="weaponRackGreyPlayer"/>
+			<property name="TintColor" value="133,253,49,255"/>
+			<property name="CustomIconTint" value="133,253,49,255"/>
+		</block>
+		<block name="weaponRackGreenPlayer">
+			<property name="Extends" value="weaponRackPlayer"/>
+			<property name="CustomIcon" value="weaponRackGreyPlayer"/>
+			<property name="TintColor" value="41,253,47,255"/>
+			<property name="CustomIconTint" value="41,253,47,255"/>
+		</block>
+		<block name="weaponRackGreenCyanPlayer">
+			<property name="Extends" value="weaponRackPlayer"/>
+			<property name="CustomIcon" value="weaponRackGreyPlayer"/>
+			<property name="TintColor" value="42,253,132,255"/>
+			<property name="CustomIconTint" value="42,253,132,255"/>
+		</block>
+		<block name="weaponRackCyanPlayer">
+			<property name="Extends" value="weaponRackPlayer"/>
+			<property name="CustomIcon" value="weaponRackGreyPlayer"/>
+			<property name="TintColor" value="45,255,254,255"/>
+			<property name="CustomIconTint" value="45,255,254,255"/>
+		</block>
+		<block name="weaponRackBlueCyanPlayer">
+			<property name="Extends" value="weaponRackPlayer"/>
+			<property name="CustomIcon" value="weaponRackGreyPlayer"/>
+			<property name="TintColor" value="22,132,252,255"/>
+			<property name="CustomIconTint" value="22,132,252,255"/>
+		</block>
+		<block name="weaponRackBluePlayer">
+			<property name="Extends" value="weaponRackPlayer"/>
+			<property name="CustomIcon" value="weaponRackGreyPlayer"/>
+			<property name="TintColor" value="11,36,250,255"/>
+			<property name="CustomIconTint" value="11,36,250,255"/>
+		</block>
+		<block name="weaponRackBlueMagentaPlayer">
+			<property name="Extends" value="weaponRackPlayer"/>
+			<property name="CustomIcon" value="weaponRackGreyPlayer"/>
+			<property name="TintColor" value="127,37,251,255"/>
+			<property name="CustomIconTint" value="127,37,251,255"/>
+		</block>
+		<block name="weaponRackMagentaPlayer">
+			<property name="Extends" value="weaponRackPlayer"/>
+			<property name="CustomIcon" value="weaponRackGreyPlayer"/>
+			<property name="TintColor" value="253,40,251,255"/>
+			<property name="CustomIconTint" value="253,40,251,255"/>
+		</block>
+		<block name="weaponRackMagentaRedPlayer">
+			<property name="Extends" value="weaponRackPlayer"/>
+			<property name="CustomIcon" value="weaponRackGreyPlayer"/>
+			<property name="TintColor" value="252,21,129,255"/>
+			<property name="CustomIconTint" value="252,21,129,255"/>
+		</block>
+		<block name="weaponRackPlayerHelper">
+			<property name="Extends" value="weaponRackPlayer"/>
+			<property name="CustomIcon" value="weaponRackPlayer"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="DescriptionKey" value="weaponRackPlayerDesc"/>
+			<property name="WaterFlow" value="permitted"/>
+			<property name="PickupJournalEntry" value="shapeMenuTip"/>
+			<property name="SelectAlternates" value="true"/>
+			<property name="PlaceAltBlockValue" value="weaponRackPlayer,weaponRackGreyPlayer,weaponRackRedPlayer,weaponRackOrangePlayer,weaponRackYellowPlayer,weaponRackYellowGreenPlayer,weaponRackGreenPlayer,weaponRackGreenCyanPlayer,weaponRackCyanPlayer,weaponRackBlueCyanPlayer,weaponRackBluePlayer,weaponRackBlueMagentaPlayer,weaponRackMagentaPlayer,weaponRackMagentaRedPlayer"/>
+		</block>
+		<block name="weaponRackItemData">
+			<property name="Extends" value="terrBedrock"/>
+			<property name="CreativeMode" value="None"/>
+		</block>
+	</append>
+	<include filename="item_definitions.xml" />
+	</configs>

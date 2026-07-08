@@ -1,0 +1,8 @@
+<configs>
+	<append xpath="/recipes">
+		<recipe name="weaponRackPlayerHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>
+		</recipe>
+	</append>
+</configs>

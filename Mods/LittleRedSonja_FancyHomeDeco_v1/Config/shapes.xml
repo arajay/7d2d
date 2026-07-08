@@ -1,9 +1,0 @@
-<LittleRedSonja>
-	
-<!--======== Adds the elusive "windowStoreWedge60BulletproofRight" as player block until GNS adds it to his mod =========-->
-
-	<append xpath="/shapes/shape[@name='windowStoreWedge60BulletproofRight']" >
-      	<property name="ShapeMenu" value="true" />
-    </append>
-	
-</LittleRedSonja>

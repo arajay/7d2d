@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <Name value="CraftFromContainers" />
+  <DisplayName value="Craft From Containers" />
+  <Description value="Allows crafting to pull required resources from nearby containers." />
+  <Author value="ExplodatedFaces" />
+  <Version value="1.2.0" />
+  <Website value="" />
+</xml>

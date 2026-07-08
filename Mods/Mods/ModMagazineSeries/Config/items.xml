@@ -1,0 +1,43 @@
+<configs>
+    <remove xpath="/items/item[
+        @name='modFuelTankSmallSchematic' or
+        @name='modGunMagazineExtenderSchematic' or
+        @name='modGunMeleeTheHunterSchematic' or
+        @name='modMeleeGraveDiggerSchematic' or
+        @name='modMeleeSerratedBladeSchematic' or
+        @name='modMeleeStructuralBraceSchematic' or
+        @name='modMeleeWeightedHeadSchematic' or
+        @name='modMeleeWoodSplitterSchematic' or
+        @name='modFuelTankLargeSchematic' or
+        @name='modGunBowArrowRestSchematic' or
+        @name='modGunCrippleEmSchematic' or
+        @name='modMeleeBunkerBusterSchematic' or
+        @name='modMeleeClubBarbedWireSchematic' or
+        @name='modMeleeClubBurningShaftSchematic' or
+        @name='modMeleeFortifyingGripSchematic' or
+        @name='modVehicleFuelSaverSchematic' or
+        @name='modVehicleReserveFuelTankSchematic' or
+        @name='modArmorBandolierSchematic' or
+        @name='modGunBowPolymerStringSchematic' or
+        @name='modGunMeleeRadRemoverSchematic' or
+        @name='modMeleeClubMetalSpikesSchematic' or
+        @name='modMeleeErgonomicGripSchematic' or
+        @name='modMeleeIronBreakerSchematic' or
+        @name='modMeleeTemperedBladeSchematic' or
+        @name='modRoboticDroneStunWeaponModSchematic'
+    ]"/>
+    <insertBefore xpath="/items/item[@name='adminPerkBook']">
+        <item name="itemModsSkillMagazine">
+            <property name="Extends" value="masterSkillMagazine"/>
+            <property name="Tags" value="itemModsCSM,csm"/>
+            <property name="CustomIcon" value="bookModdersDelight"/>
+            <property name="DescriptionKey" value="itemModsSkillMagazineDesc"/>
+            <property name="Unlocks" value="craftingItemMods"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel"
+                                  progression_name="craftingItemMods" level="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+    </insertBefore>
+</configs>

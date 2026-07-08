@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <!-- Enhanced Night Vision for Darker Nights -->
+  <!-- fade the NightVision screen effect in/out instead of snapping instantly -->
+  <set xpath="/item_modifiers/item_modifier[@name='modArmorNightVision']/effect_group/triggered_effect[@action='ModifyScreenEffect' and @trigger='onSelfItemActivate']/@fade">1.2</set>
+  <set xpath="/item_modifiers/item_modifier[@name='modArmorNightVision']/effect_group/triggered_effect[@action='ModifyScreenEffect' and @trigger='onSelfItemDeactivate']/@fade">1.2</set>
+  <set xpath="/item_modifiers/item_modifier[@name='modArmorNightVision']/effect_group/triggered_effect[@action='ModifyScreenEffect' and @trigger='onSelfEquipStop']/@fade">1.2</set>
+
+  <!-- Additional lighting effect alongside night vision -->
+  <append xpath="/item_modifiers/item_modifier[@name='modArmorNightVision']">
+    <triggered_effect trigger="onSelfItemActivate" action="ModifyScreenEffect" effect_name="Bright" intensity="0.9" fade="1.2"/>
+    <triggered_effect trigger="onSelfItemDeactivate" action="ModifyScreenEffect" effect_name="Bright" intensity="0" fade="1.2"/>
+    <triggered_effect trigger="onSelfEquipStop" action="ModifyScreenEffect" effect_name="Bright" intensity="0" fade="1.2"/>
+  </append>
+</config>
